@@ -97,6 +97,11 @@
   padding: 0;
 }
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 html {
   direction: rtl;
   lang: ar;
@@ -108,6 +113,11 @@ html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  width: 100%;
+  position: relative;
 }
 
 /* Custom Scrollbar */
@@ -914,21 +924,122 @@ button {
 }
 
 /* --------------------------------------------------------------------------
-   9. Currently Reading Section (Murakami Feature Layout)
+   9. Currently Reading Section (Compact Multi-Book Carousel & Side-by-Side)
    -------------------------------------------------------------------------- */
-.currently-reading-box {
+.currently-section-header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.currently-nav-arrows {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.currently-arrow-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--color-surface);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+  cursor: pointer;
+  box-shadow: var(--shadow-subtle);
+}
+
+.currently-arrow-btn:hover {
+  background: var(--color-accent);
+  border-color: var(--color-accent);
+  color: #FFFFFF;
+  transform: scale(1.06);
+}
+
+.currently-arrow-btn svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.currently-reading-track {
+  display: flex;
+  gap: var(--space-6);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: var(--space-2) var(--space-1) var(--space-4);
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) transparent;
+  align-items: stretch;
+}
+
+.currently-reading-track::-webkit-scrollbar {
+  height: 6px;
+}
+
+.currently-reading-track::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.currently-reading-track::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: var(--radius-sm);
+}
+
+/* 1 book: centered compact card */
+.currently-reading-track[data-count="1"] {
+  justify-content: center;
+}
+.currently-reading-track[data-count="1"] .currently-reading-card {
+  max-width: 680px;
+  flex: 0 1 680px;
+}
+
+/* 2 books: side by side */
+.currently-reading-track[data-count="2"] .currently-reading-card {
+  flex: 1 1 calc(50% - var(--space-3));
+  min-width: 420px;
+}
+
+/* 3+ books: scrollable items */
+.currently-reading-track .currently-reading-card {
+  flex: 0 0 520px;
+  min-width: 400px;
   background: var(--color-surface);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-md);
-  padding: var(--space-12);
+  padding: var(--space-6);
   box-shadow: var(--shadow-card);
-  position: relative;
-  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  scroll-snap-align: start;
+  transition: transform var(--transition-base), box-shadow var(--transition-base);
+}
+
+.currently-reading-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-lift);
+}
+
+.currently-card-body {
+  display: grid;
+  grid-template-columns: 130px 1fr;
+  gap: var(--space-6);
+  align-items: start;
+  height: 100%;
 }
 
 .reading-badge {
   display: inline-flex;
   align-items: center;
+  align-self: flex-start;
+  width: fit-content;
   gap: var(--space-2);
   padding: 6px 14px;
   background: var(--color-bg-alt);
@@ -940,18 +1051,17 @@ button {
   margin-bottom: var(--space-6);
 }
 
+.reading-badge.compact {
+  padding: 4px 10px;
+  font-size: var(--text-2xs);
+  margin-bottom: var(--space-1);
+}
+
 .reading-badge-marker {
   width: 6px;
   height: 6px;
   border-radius: 50%;
   background: var(--color-accent);
-}
-
-.currently-grid {
-  display: grid;
-  grid-template-columns: 320px 1fr;
-  gap: var(--space-12);
-  align-items: center;
 }
 
 /* Tactile 3D Physical Book Rendering */
@@ -977,11 +1087,27 @@ button {
   box-shadow: 0 24px 50px rgba(0, 0, 0, 0.35);
 }
 
+.book-volume.compact {
+  width: 130px;
+  aspect-ratio: 2 / 3;
+  border-radius: 2px 6px 6px 2px;
+  box-shadow: var(--shadow-book);
+}
+
+.book-volume.compact:hover {
+  transform: rotateY(-10deg) translateY(-4px);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.3);
+}
+
 .book-volume img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 3px 8px 8px 3px;
+}
+
+.book-volume.compact img {
+  border-radius: 2px 6px 6px 2px;
 }
 
 /* Book physical spine shading */
@@ -995,6 +1121,10 @@ button {
   background: linear-gradient(to left, rgba(255,255,255,0.2), rgba(0,0,0,0.2) 60%, transparent);
   border-radius: 3px 0 0 3px;
   pointer-events: none;
+}
+
+.book-volume.compact::before {
+  width: 12px;
 }
 
 /* Book page edges (left side in RTL) */
@@ -1011,10 +1141,24 @@ button {
   box-shadow: inset -2px 0 3px rgba(0,0,0,0.2);
 }
 
+.book-volume.compact::after {
+  top: 3px;
+  left: -5px;
+  bottom: 3px;
+  width: 5px;
+  transform: rotateY(90deg) translateX(3px);
+}
+
 .currently-info {
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
+}
+
+.currently-info.compact {
+  gap: var(--space-2);
+  min-width: 0;
+  height: 100%;
 }
 
 .currently-title {
@@ -1025,10 +1169,25 @@ button {
   line-height: 1.3;
 }
 
+.currently-title.compact {
+  font-size: 1.25rem;
+  line-height: 1.35;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .currently-author {
   font-size: var(--text-md);
   color: var(--color-accent);
   font-weight: 600;
+}
+
+.currently-author.compact {
+  font-size: var(--text-xs);
+  margin: 0;
 }
 
 .currently-desc {
@@ -1036,6 +1195,16 @@ button {
   color: var(--color-text-secondary);
   line-height: 1.8;
   max-width: 68ch;
+}
+
+.currently-desc.compact {
+  font-size: var(--text-xs);
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin: var(--space-1) 0;
 }
 
 .currently-meta-row {
@@ -1046,6 +1215,26 @@ button {
   border-top: 1px solid var(--color-border-subtle);
   font-size: var(--text-xs);
   color: var(--color-text-muted);
+}
+
+.currently-meta-row.compact {
+  padding-top: var(--space-2);
+  gap: var(--space-3);
+  font-size: var(--text-2xs);
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+
+.currently-actions {
+  margin-top: var(--space-3);
+}
+
+.btn-sm {
+  padding: 8px 16px;
+  font-size: var(--text-xs);
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
 }
 
 /* --------------------------------------------------------------------------
@@ -1847,17 +2036,9 @@ button {
     grid-template-columns: 1fr;
   }
   
-  .currently-grid {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-  
-  .currently-reading-box {
-    padding: var(--space-8);
-  }
-  
-  .currently-meta-row {
-    justify-content: center;
+  .currently-reading-track[data-count="2"] .currently-reading-card {
+    flex: 0 0 460px;
+    min-width: 380px;
   }
   
   .footer-grid {
@@ -1867,6 +2048,25 @@ button {
 }
 
 @media (max-width: 768px) {
+  /* 1. Eliminate excessive side gutters */
+  .section {
+    padding-block: 44px;
+    padding-inline: 0;
+  }
+  
+  .container,
+  .container-narrow {
+    padding-inline: 14px;
+  }
+
+  .section-header {
+    margin-bottom: var(--space-6);
+  }
+
+  .section-title {
+    font-size: 1.75rem;
+  }
+
   .nav-menu {
     display: none;
   }
@@ -1874,44 +2074,383 @@ button {
   .mobile-nav-toggle {
     display: flex;
   }
-  
-  .youtube-grid {
-    grid-template-columns: 1fr;
+
+  /* 2. Hero Section on mobile */
+  .hero-section {
+    padding-block: 36px;
+  }
+
+  .hero-film-wrapper {
+    max-width: 220px;
+    margin-inline: auto;
   }
   
+  /* 3. YouTube 2-in-a-row Grid */
+  .youtube-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .yt-card {
+    border-radius: 12px;
+  }
+
+  .yt-info {
+    padding: 8px;
+    gap: 4px;
+  }
+
+  .yt-title {
+    font-size: 0.775rem;
+    line-height: 1.35;
+    -webkit-line-clamp: 2;
+  }
+
+  .yt-meta {
+    font-size: 0.675rem;
+    padding-top: 4px;
+  }
+
+  .yt-play-icon {
+    width: 32px;
+    height: 32px;
+  }
+
+  .yt-play-icon svg {
+    width: 14px !important;
+    height: 14px !important;
+  }
+
+  /* 4. Social Media 2-in-a-row Grid */
+  .social-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .social-card {
+    padding: 16px 12px;
+    border-radius: 14px;
+  }
+
+  .social-card:last-child {
+    grid-column: span 2;
+  }
+
+  .social-card-top {
+    margin-bottom: 8px;
+  }
+
+  .social-icon-box {
+    width: 34px;
+    height: 34px;
+  }
+
+  .social-icon-box svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .social-handle {
+    font-size: 0.725rem;
+  }
+
+  .social-name {
+    font-size: 0.95rem;
+    margin-bottom: 4px;
+  }
+
+  .social-desc {
+    font-size: 0.75rem;
+    line-height: 1.45;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-bottom: 8px;
+  }
+
+  .social-cta {
+    font-size: 0.75rem;
+    padding-top: 8px;
+  }
+
+  /* 5. Currently Reading Track & Cards on mobile */
+  .currently-section-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-2);
+  }
+
+  .currently-nav-arrows {
+    align-self: flex-end;
+  }
+
+  .currently-reading-track {
+    gap: var(--space-4);
+  }
+
+  .currently-reading-track[data-count="2"] .currently-reading-card,
+  .currently-reading-track .currently-reading-card {
+    flex: 0 0 88%;
+    min-width: 280px;
+    padding: var(--space-4);
+    scroll-snap-align: center;
+  }
+
+  .currently-card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--space-4);
+  }
+
+  .book-volume.compact {
+    width: 140px;
+  }
+
+  .currently-info.compact {
+    align-items: center;
+    width: 100%;
+  }
+
+  .reading-badge.compact {
+    align-self: center;
+  }
+
+  .currently-title.compact {
+    font-size: 1.15rem;
+  }
+
+  .currently-meta-row.compact {
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* 6. Filter Toolbar & Search Bar (matching reference mockup) */
+  .archive-toolbar {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin-bottom: var(--space-6);
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  .archive-search-box {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .archive-search-input {
+    border-radius: 9999px;
+    padding: 12px 42px 12px 18px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 8px rgba(18, 20, 23, 0.05);
+    border: 1px solid var(--color-border);
+    font-size: 0.85rem;
+    box-sizing: border-box;
+  }
+
+  .search-icon-svg {
+    right: 16px;
+    width: 18px;
+    height: 18px;
+  }
+
+  .filter-chips {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    gap: 8px;
+    padding-block: 4px 6px;
+    justify-content: flex-start;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+
+  .filter-chips::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filter-chip {
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding: 7px 14px;
+    font-size: 0.8rem;
+    border-radius: 9999px;
+    border: 1px solid var(--color-border);
+    background: #FFFFFF;
+  }
+
+  .filter-chip.active {
+    background: var(--color-text);
+    color: var(--color-bg);
+    border-color: var(--color-text);
+  }
+  
+  /* 7. Books Catalog 2-Column Grid (matching reference mockup) */
   .books-catalog-grid {
-    grid-template-columns: 1fr;
-    gap: var(--space-6);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
   }
   
   .catalog-book-card {
-    padding: 16px;
-    gap: 16px;
-  }
-  
-  .catalog-cover-col {
-    width: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 10px 14px;
+    gap: 8px;
+    border-radius: 18px;
+    position: relative;
+    text-align: center;
+    background: #FFFFFF;
   }
 
-  .catalog-info-col {
-    padding-left: 38px;
-  }
-
+  /* Bookmark Icon (Top Left in RTL) */
   .catalog-bookmark-badge {
-    width: 36px;
-    height: 36px;
-    top: 14px;
-    left: 14px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    z-index: 2;
+    box-shadow: 0 2px 8px rgba(18, 20, 23, 0.08);
   }
 
   .catalog-bookmark-badge svg {
-    width: 15px;
-    height: 15px;
+    width: 14px;
+    height: 14px;
+  }
+
+  /* Personal Rating Stars (Top Right in RTL) */
+  .catalog-rating-row {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin: 0;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    background: rgba(245, 241, 235, 0.85);
+    padding: 3px 8px;
+    border-radius: 9999px;
+    backdrop-filter: blur(4px);
+  }
+
+  .catalog-stars {
+    font-size: 0.725rem;
+    letter-spacing: 0.5px;
+    line-height: 1;
   }
   
+  /* Centered 3D Book Cover */
+  .catalog-cover-col {
+    width: 72%;
+    max-width: 115px;
+    margin-top: 26px;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .catalog-cover-wrapper {
+    width: 100%;
+    aspect-ratio: 2 / 3;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px -4px rgba(0, 0, 0, 0.28), 0 3px 6px -2px rgba(0, 0, 0, 0.12);
+  }
+
+  /* Info Column: Title & Author */
+  .catalog-info-col {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    text-align: center;
+  }
+
+  .catalog-header-content {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    gap: 3px;
+  }
+
+  .catalog-book-title {
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    font-weight: 700;
+    line-height: 1.35;
+    text-align: center;
+    color: var(--color-text);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    min-height: 2.3em;
+  }
+
+  .catalog-book-author {
+    font-size: 0.725rem;
+    color: var(--color-text-muted);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
+
+  /* Hide long desktop-only details to maintain clean mobile 2-column layout */
+  .catalog-meta-tags,
+  .catalog-excerpt,
+  .catalog-readers-indicator {
+    display: none;
+  }
+
+  .catalog-card-footer {
+    width: 100%;
+    border-top: none;
+    padding-top: 0;
+    margin: 0;
+  }
+
+  /* Make whole card a clean tap target on mobile, matching reference mockup */
+  .catalog-pill-btn {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+    border-radius: 18px;
+  }
+  
+  /* 8. 3D Slider on mobile */
+  .slider-container-3d {
+    overflow: hidden;
+    max-width: 100%;
+  }
+
   .slider-stage-3d {
     height: 440px;
     perspective: 800px;
+    overflow: hidden;
+    max-width: 100%;
   }
   
   .slider-book-card {
@@ -1945,10 +2484,6 @@ button {
   .slider-active-desc {
     font-size: var(--text-xs);
     height: 64px;
-  }
-
-  .archive-toolbar {
-    padding: var(--space-3) var(--space-4);
   }
 }
 

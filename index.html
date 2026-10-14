@@ -243,15 +243,25 @@
          ==================================================================== -->
     <section class="section" id="currently-reading">
       <div class="container">
-        <div class="section-header">
-          <h2 class="section-title">بقرأ إيه دلوقتي؟</h2>
-          <p class="section-desc">الكتاب اللي شغال فيه الأيام دي.. بيتحدث أوتوماتيك من الرف بتاعي على Goodreads.</p>
+        <div class="currently-section-header">
+          <div class="section-header" style="margin-bottom: var(--space-4);">
+            <h2 class="section-title">بقرأ إيه دلوقتي؟</h2>
+            <p class="section-desc">الكتب اللي شغال فيها الأيام دي.. بيتحدث أوتوماتيك من الرف بتاعي على Goodreads.</p>
+          </div>
+          <div class="currently-nav-arrows" id="currently-nav" style="display: none;">
+            <button class="currently-arrow-btn" id="currently-prev" aria-label="الكتاب السابق" title="الكتاب السابق">
+              <svg viewBox="0 0 24 24"><path d="M9 18l6-6-6-6"/></svg>
+            </button>
+            <button class="currently-arrow-btn" id="currently-next" aria-label="الكتاب التالي" title="الكتاب التالي">
+              <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6"/></svg>
+            </button>
+          </div>
         </div>
 
-        <div class="currently-reading-box" id="currently-reading-content">
+        <div class="currently-reading-track" id="currently-reading-content">
           <!-- Dynamically populated from data/currently-reading.json -->
-          <div style="text-align: center; padding: var(--space-8); color: var(--color-text-muted);">
-            <p>ثواني بجيب الكتاب اللي شغال فيه...</p>
+          <div class="currently-reading-card" style="text-align: center; padding: var(--space-8); color: var(--color-text-muted); width: 100%;">
+            <p>ثواني بجيب الكتب اللي شغال فيها...</p>
           </div>
         </div>
       </div>
@@ -309,6 +319,12 @@
 
         <!-- Filter Chips Toolbar (Ratings, Genres & Language as Main Filters) -->
         <div class="archive-toolbar">
+          <div class="archive-search-box">
+            <svg class="search-icon-svg" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+            </svg>
+            <input type="text" id="archive-search" class="archive-search-input" placeholder="ابحث عن اسم كتاب أو كاتب..." aria-label="بحث في أرشيف الكتب">
+          </div>
           <div class="filter-chips" id="filter-chips" role="toolbar" aria-label="تصفية الكتب">
             <button class="filter-chip active" data-filter="all">الكل</button>
             <button class="filter-chip" data-filter="5-stars">★★★★★ (عجبوني جداً)</button>

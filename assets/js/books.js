@@ -28,7 +28,9 @@ export class BooksCatalog {
     try {
       const res = await fetch('data/books.json');
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      this.allBooks = await res.json();
+      const rawBooks = await res.json();
+      // Exclude books currently being read (they belong to "currently reading" shelf, not completed archive)
+      this.allBooks = rawBooks.filter(book => !book.shelves || !book.shelves.includes('currently-reading'));
     } catch (err) {
       console.error('Failed to load books catalog:', err);
       return;

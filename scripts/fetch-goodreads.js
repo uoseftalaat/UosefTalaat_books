@@ -148,13 +148,20 @@ async function main() {
     console.log('Fetching all books...');
     const allBooks = await fetchShelf('#ALL#');
 
-    // Filter out currently-reading from all-books list if desired, or keep as full catalog
+    // Filter out currently-reading books from completed read books catalog
+    const currentlyReadingIds = new Set(currentlyReading.map(b => b.id));
+    const completedBooks = allBooks.filter(b => {
+      if (currentlyReadingIds.has(b.id)) return false;
+      if (b.shelves && b.shelves.includes('currently-reading')) return false;
+      return true;
+    });
+
     await fs.writeFile(
       path.join(DATA_DIR, 'books.json'),
-      JSON.stringify(allBooks, null, 2),
+      JSON.stringify(completedBooks, null, 2),
       'utf-8'
     );
-    console.log(`Saved books.json (${allBooks.length} books)`);
+    console.log(`Saved books.json (${completedBooks.length} books, excluded ${currentlyReading.length} currently reading)`);
 
     // 3. Extract all 5-star books
     const fiveStars = allBooks
