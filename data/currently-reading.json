@@ -15,6 +15,13 @@
     "pages": 176,
     "publishedYear": "1947",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8456653020?utm_medium=api&utm_source=rss",
-    "isArabic": false
+    "isArabic": false,
+    "genres": [
+      "تاريخ وسير",
+      "جريمة وغموض",
+      "فلسفة وفكر وعلوم",
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "جريمة وغموض"
   }
 ]

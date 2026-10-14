@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
   new BooksCatalog({
     grid: '#books-grid',
     filterContainer: '#filter-chips',
+    secondaryContainer: '#filter-chips-secondary',
     searchInput: '#archive-search',
     loadMoreBtn: '#load-more-books',
     counterEl: '#total-books-counter'

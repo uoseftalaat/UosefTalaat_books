@@ -13,7 +13,12 @@
     "pages": 304,
     "publishedYear": "2018",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8511751117?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات"
   },
   {
     "id": "8239301",
@@ -29,7 +34,12 @@
     "pages": 463,
     "publishedYear": "2010",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8799753568?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير"
   },
   {
     "id": "200790032",
@@ -45,7 +55,32 @@
     "pages": 327,
     "publishedYear": "2023",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8089238996?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات"
+  },
+  {
+    "id": "58658049",
+    "title": "علي أعتاب غرناطه",
+    "author": "أحمد  أمين",
+    "rating": 5,
+    "averageRating": 3.68,
+    "coverUrl": "",
+    "dateAdded": "Wed, 19 Nov 2025 09:47:00 -0800",
+    "dateRead": "Tue, 21 Mar 2023 00:00:00 +0000",
+    "shelves": [],
+    "description": "رواية بقلم أحمد أمين سترى الخائن يعيش ليجنى ثمار تضحيات البطل .. سترى من باع وطنه عاش سالما .. ومن أبى .. قضى نحبه بضربة رمح أو بطعنة سيف أو برصاصة غادرة .. لكنك حتما ستلعن الاول وستمجد الثانى .. ربما يلهب حماسك التاريخ حتى تكاد تعتقد أن أحداثه تتكرر بحذافيرها .. وتتكرر الشخصيات مع اختلاف المكان والزمان فقط ... ذلك ليس صحيحا بالمرة .. التاريخ لا يتغير أحداث الأمس نعيشها اليوم وسنعيشها فى الغد فويل لمن لايتعلم منه ويل له ... غلاف 263 صفحة",
+    "pages": 261,
+    "publishedYear": "2016",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/5423669545?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير"
   },
   {
     "id": "43306206",
@@ -61,7 +96,12 @@
     "pages": 288,
     "publishedYear": "2013",
     "goodreadsUrl": "https://www.goodreads.com/review/show/7407778191?utm_medium=api&utm_source=rss",
-    "isArabic": false
+    "isArabic": false,
+    "genres": [
+      "علم نفس وتطوير ذات",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات"
   },
   {
     "id": "25635774",
@@ -77,6 +117,495 @@
     "pages": 408,
     "publishedYear": "2015",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6572087135?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "جريمة وغموض",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "جريمة وغموض"
+  },
+  {
+    "id": "35393382",
+    "title": "لعبة الملاك (مقبرة الكتب المنسية #2)",
+    "author": "Carlos Ruiz Zafón",
+    "rating": 5,
+    "averageRating": 4.26,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1497002822l/35393382._SY600_.jpg",
+    "dateAdded": "Sat, 13 Jul 2024 13:21:20 -0700",
+    "dateRead": null,
+    "shelves": [],
+    "description": "شكّل رواية \"لعبة الملاك\"(*) جزءًا من سلسلةٍ روائيّةٍ، ترتكز على \"مقبرة الكتب المنسية\" كثيمةٍ أدبيّة أساسيّة. ترتبط هذه الروايات بعضها ببعض عبْر الشخصيّات والمواضيع المتعددة؛ إلّا أنّ كلّ رواية منها مستقلّة عن الأخرى ومكتفية بذاتها. وقال أحد النقاد برهنت \"لعبة الملاك على براعة مؤلّفها في نسج حبكةٍ جارفة وغنيّة بالإثارة والتشويق. روايةٌ ممتعة بكلّ تفاصيلها، تمنح كارلوس زافون لقب \"ديكنز البرشلونيّ\" بلا منازع. تدور أحداث الرواية في برشلونة قبل عقدين من اندلاع الحرب الأهلية أي عشرينيات القرن الماضي وتوضح تفاصيل الظروف والإرهاصات التي أدت إلى اندلاع شرارة الحرب التي راح ضحيتها أكثر من نصف مليون شخص. مرة أخرى، يثبت زافون نبوغه في فنون السرد، ويبدو أن إيمانه المطلق بقدرات الخيال يكرّس دوره كروائيّ لامع ومؤثر. - Financial Times برهنت \"لعبة الملاك\" على براعة مؤلفها في نسج حبكة جارفة وغنية بالإثارة والتشويق، رواية ممتعة بكل تفاصيلها، تمنح كارلوس زافون لقب \"ديكنز البرشلوني\" بلا منازع. -Corriere Della Sera إذا كانت \"ظل الريح\" تحتفي بمتعة القراءة، فإن \"لعبة الملاك\" تستكشف هذيان الكتابة. - The Independent على نهج ميغيل ثربانتس، يخلق زافون شخصية \"دون كيشوتنية\" بوحي من مواضيع شعبية ومعاصرة، تصنع من الأديب أنموذجًا فروسيًا حالمًا. - Deutschlandradio Kultur يرتكز كارلوس زافون إلى تاريخ إسبانيا المروّع في القرن العشرين، ليكتب رواية صادمة بأسلوبٍ حادّ، ويجعل من إرث برشلونة إرثًا عالميًا. - The Times لن يستطيع القارئ، الذي أحب \"ظل الريح\"، إلا أن يهيم في \"لعبة الملاك\"، لعله يلتقي مجددًا بألغاز أمبرتو إيكو وإيحاءات خورخي لويس بورخيس، في بوتقة أدبية فريدة من نوعها، عنوانها \" مقبرة الكتب المنسية\". - The Observer",
+    "pages": 680,
+    "publishedYear": "2008",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/4035496361?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة"
+  },
+  {
+    "id": "205693930",
+    "title": "قضية عنب الثعلب (تحقيقات نوح الألفي، #3)",
+    "author": "ميرنا المهدي",
+    "rating": 5,
+    "averageRating": 4.24,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1705763682l/205693930._SY600_.jpg",
+    "dateAdded": "Thu, 07 Mar 2024 07:32:59 -0800",
+    "dateRead": "Thu, 7 Mar 2024 00:00:00 +0000",
+    "shelves": [],
+    "description": "ما الخيط الذي يربط بين اختفاء رضيع، وجريمة انتحار فظيعة، ولوحة إيفان الرهيب، وروح عالقة تبحث عن النيكوتين؟ كان الضابط نوح الألفي منشغلًا باستعدادات زواجه من دليلة، ولكن رغبة زميله قطز في تناول الكباب عند كبابجي شهير قادتهما إلى التورط في قضية فتحت عليهما أبواب أسئلة لا تنتهي... ضابطان عاديان كانا سيقفان عاجزَين أمام ملابسات هذه القضية، ولكن نوح الألفي الذي تعرَّض لحادث جعله يُبصر غوامض لا يراها غيره، وزميله قطز المحمدي، ليسا ضابطين عاديين. ثم ما عنب الثعلب أصلًا؟ قضية جديدة مثيرة في سلسلة «تحقيقات نوح الألفي».",
+    "pages": 264,
+    "publishedYear": "2024",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/6324457740?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض",
+      "روايات وأدب",
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة"
+  },
+  {
+    "id": "60593661",
+    "title": "زوربا اليوناني",
+    "author": "Nikos Kazantzakis",
+    "rating": 5,
+    "averageRating": 3.55,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1679238699l/60593661._SY600_.jpg",
+    "dateAdded": "Sat, 02 Mar 2024 21:15:39 -0800",
+    "dateRead": "Sat, 2 Mar 2024 00:00:00 +0000",
+    "shelves": [],
+    "description": "The classic novel, international sensation, and inspiration for the film starring Anthony Quinn explores the struggle between the aesthetic and the rational, the inner life and the life of the mind. The classic novel Zorba the Greek is the story of two men, their incredible friendship, and the importance of living life to the fullest. Zorba, a Greek working man, is a larger-than-life character, energetic and unpredictable. He accompanies the unnamed narrator to Crete to work in the narrator’s lignite mine, and the pair develops a singular relationship. The two men couldn’t be further apart: The narrator is cerebral, modest, and reserved; Zorba is unfettered, spirited, and beyond the reins of civility. Over the course of their journey, he becomes the narrator’s greatest friend and inspiration and helps him to appreciate the joy of living. Zorba has been acclaimed as one of the most remarkable figures in literature; he is a character in the great tradition of Sinbad the Sailor, Falstaff, and Sancho Panza. He responds to all that life offers him with passion, whether he’s supervising laborers at a mine, confronting mad monks in a mountain monastery, embellishing the tales of his past adventures, or making love. Zorba the Greek explores the beauty and pain of existence, inviting readers to reevaluate the most important aspects of their lives and live to the fullest.",
+    "pages": 396,
+    "publishedYear": "1946",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/6033298655?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم"
+  },
+  {
+    "id": "53590333",
+    "title": "أبناء حورة",
+    "author": "Abdelrahim Kamal",
+    "rating": 5,
+    "averageRating": 3.75,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1624086722l/53590333._SY600_.jpg",
+    "dateAdded": "Thu, 15 Feb 2024 03:29:56 -0800",
+    "dateRead": "Thu, 15 Feb 2024 00:00:00 +0000",
+    "shelves": [],
+    "description": "هناك خيال عاقل، وخيال مجنون، وخيال يُحلِّق بين العالمين ليجمع الدهشة من كليهما، وإلى النوع الأخير تنتمي رواية عبد الرحيم كمال الجديدة «أبناء حورة». «وإذا به يجد نفسه في غرفة بلا سطح، داخلها إوَزَّة بيضاء شديدة الجمال، كان هو وهي فقط في تلك الحجرة المشمسة، ولما أقبل نحوها مسرعًا بسكينه الحاد لم تجرِ، بل ظلت ساكنة حتى أمسك بها واحتضنها، وقبل أن يمرر سكينه على رقبتها همست بمنقارها: أحبك يا طاهر». عرف الجمهور الواسع عبد الرحيم كمال بوصفه كاتبًا لأشهر المسلسلات التلفزيونية، مثل: «الخواجة عبد القادر» و«ونوس» و«شيخ العرب همام»، لكن «أبناء حورة» تنتمي إلى الوجه الآخر لهذا المبدع الكبير؛ وجه الأديب الروائي الذي يأخذ فن الحكي إلى عوالم شاسعة لا يتسع لها سوى خيال القارئ. هنا نتعرف على «حورة» وأولادها الذين ليس لهم مثيل، نلتقي «نور الطريق جمال» و«حُسن الجوار جمال» و«سيف القضاء جمال»، نقابل الرياحي والحُر الواثق ورمَّاح الحكَّاء، نرى العمالقة ونختبئ من الغيلان وندخل عوالم يمتزج فيها الطير والبشر. نعيش في قاهرة لا تشبه قاهرتنا، ومستقبل لا يشبه حاضرنا، لكن شيئًا واحدًا يربطنا، هو النجاة في الحب مهما تعددت طرائقه، أو كما يقول الشيخ صفي الدين بإخلاص ويقين: «ثوب الحب لا يُصنع إلا بخيوط من عجب».",
+    "pages": 424,
+    "publishedYear": "2021",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/6246771146?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "خيال علمي وفانتازيا",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا"
+  },
+  {
+    "id": "60122526",
+    "title": "قضية لوز مُر (تحقيقات نوح الألفي، #2)",
+    "author": "ميرنا المهدي",
+    "rating": 5,
+    "averageRating": 4.31,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1670589263l/60122526._SY600_.jpg",
+    "dateAdded": "Thu, 08 Feb 2024 12:21:18 -0800",
+    "dateRead": "Thu, 8 Feb 2024 00:00:00 +0000",
+    "shelves": [],
+    "description": "لم يرد الضابط نوح الألفي شيئًا سوى أن يقضي ليلة رومانسية مع دليلة الجارحي في واحد من أفخم فنادق القاهرة، إلا أنه يتعثر في جثة تبدأ معها سلسلة حوادث قتل غامضة سببها نبوءة عجيبة يعجز المنطق عن تصديقها وتفسيرها. يحاول نوح الألفي وشريكه وصديقه الوحيد قطز المحمدي فك طلاسم هذه الجرائم الغريبة، إلا أن ما لم يكن في حسبانهما هو ظهور شبح يحمل سر قديم قد ينهي حياتهما المهنية، شبح قاتلة متسلسلة يطارد نوح ويرهب من حوله وكأنه قد أقسم على ألا يتركه إلا جثة هامدة. مغامرة جديدة شيقة مليئة بالمفاجآت غير المتوقعة في سلسلة «تحقيقات نوح الألفي».",
+    "pages": 309,
+    "publishedYear": "2022",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/6198419784?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض",
+      "روايات وأدب",
+      "رعب وإثارة",
+      "خيال علمي وفانتازيا",
+      "رومانسي وعلاقات"
+    ],
+    "primaryGenre": "رعب وإثارة"
+  },
+  {
+    "id": "58545050",
+    "title": "ماكيت القاهرة",
+    "author": "Tareq Imam",
+    "rating": 5,
+    "averageRating": 3.15,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1626123798l/58545050._SY600_.jpg",
+    "dateAdded": "Tue, 23 Jan 2024 12:10:30 -0800",
+    "dateRead": "Tue, 23 Jan 2024 00:00:00 +0000",
+    "shelves": [],
+    "description": "في روايته الجديدة ينقل طارق إمام القارئ إلى القاهرة 2045. والمشروع إنجاز ماكيت للعاصمة المصرية السابقة قبل ربع قرن، جوهره إحياء ذاكرة المدينة. ولأن السؤال لا ينجي من تقاطع واقع - مصيره المحو، مع خيال - يجتاح الأمكنة التي تخلق قاطنيها؛ ستبحث عن ذاتك في مرايا الحكاية. ماذا يحدثُ لو اكتشفت أنك مجرد شخصية روائية تتحكم في مصيرها شخصية روائية أخرى؟ تعيش في ماكيت أكبر من ماكيت اعتبرته، لسنوات طويلة، مدينتك؟ ستكون حتمًا إما أوريجا أو نود أو بلياردو، وستمضي في قراءة روايةٍ هي ماتريوشكا من المدن المتطابقة، كلَّما فضضت مدينة واجهتك مدينة مضادة.وللقارئ أن يتساءل عن شرط الوجود القاسي: ألهذه الدرجة يمكن لمكان متخيل أن يمحو مكاناً حقيقياً؟ من الكتاب: بدأ محاكاة القاهرة بالورق. في الطفولة يتساوى بيتٌ من ورق وبيتٌ من الخرسانة، وفقط عندما يكبر الناس، يكتشفون أن البيوت تُصنَع من الموادِّ التي تجعلها قادرةً على حماية نفسها وليس الدفاع عمَّنْ يقطنونها. فيما كان أقرانه يصنعون مراكب وطائرات كان هو آخذاً بتشييد بيوت بيضاء تقطعها خطوط الورق المسطَّر، يضع عليه توقيعاً بدائياً سيظلُّ يطوّره استناداً لأصله الطفولي حتَّى يمنحه أخيراً هذه الهيئة: أوريجا. لكنه لن يلبث أن يكتشف أن المدينة تحتاج موادَّ أقوى، وألواناً أخرى، فلا وجود لمدينةٍ بريئةٍ إلى هذه الدرجة. مُطوِّراً من ولعه، سيكتشف أن المُدُن، حتى لو كانت غير حقيقية، خُلِقت لتبقى، بينما لم يُخلَق الإنسان نفسه إلَّا ليموت. كانت المراكب الورقية تغرق في مياه الحمَّامات، والطائرات تحلِّق لسنتيمترات، ثمَّ تنتحر على خشب الدكك الوعر أو تحت الأحذية، وحتَّى لو وجدت لنفسها مكاناً في السماء الواطئة خارج شبابيك الفصول، سرعان ما كان يبتلعها رمل الفناء. مدينته أيضاً كانت تدهسها الأقدام مع رنين جرس المغادرة. كان يفكِّر، يمكن لطائرةٍ أن تسقط ولمركب أن يغرق، إن هذا يحدث في الواقع أيضاً، لكنْ، لا يجب لمدينةٍ أن تختفي لمجرد أن جرساً أطلقت صرخته يدٌ ما، كأن الوجود محض يومٍ دراسي.",
+    "pages": 406,
+    "publishedYear": "2021",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/6041760674?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا"
+  },
+  {
+    "id": "51714048",
+    "title": "حارس سطح العالم",
+    "author": "Bothayna Al-Essa",
+    "rating": 5,
+    "averageRating": 3.82,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1568633213l/51714048._SX318_SY475_.jpg",
+    "dateAdded": "Sun, 10 Dec 2023 14:37:10 -0800",
+    "dateRead": "Sun, 10 Dec 2023 00:00:00 +0000",
+    "shelves": [],
+    "description": "\"يجبُ أن نبقى دائمًا على سطحِ اللُّغة. على سطحِ اللغة! إيّاكَ والتورُّط في المعنى.. هل تعرفُ ما الذي يحِلُّ بأولئك الذين يَسقطون في المعنى؟ تُصيبهم لوثةٌ أَبديةٌ ولا يعودون صالحين للعيش. أنت حارسُ السطح.. مستقبل البشرية يتوقف عليك\".",
+    "pages": 360,
+    "publishedYear": "2019",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/6014390309?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا"
+  },
+  {
+    "id": "85016890",
+    "title": "دليل جدتي لقتل الأوغاد",
+    "author": "ميرنا المهدي",
+    "rating": 5,
+    "averageRating": 3.95,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1674727324l/85016890._SY600_.jpg",
+    "dateAdded": "Sun, 06 Aug 2023 15:52:22 -0700",
+    "dateRead": "Sun, 6 Aug 2023 00:00:00 +0000",
+    "shelves": [],
+    "description": "اكتشفتُ الليلة أن كل فرد من عائلتي قد قُتِلَ مرَّة على الأقل! وقفت خلف جدتي وهي تفتح باب الغرفة لأجد جثة هذا الوغد عارية. بالطبع لم أشك في قاتل غير جدتي! ليس لأنها الوحيدة في بيتنا التي تملك سلاحًا احترفت استعماله منذ أيام شبابها، وليس لأننا نعلم أنها قتلت زوجها السابق، بل لأنها فور أن رأت الجثة، ربتت على ظهري وقابلت نظراتي المرتاعة بابتسامة حنون وكأنها تقول لي: «جثة هذا الوغد هي هدية تفوقك في الثانوية العامة. اسعَد يا عيسى!». لم أسعد، فقد أوصيتهم ألا يقتلوه بدوني، فلا يجوز أن يُطلق غيري الرصاص عليه، لكن يبدو أنهم استغلوا غيابي في قسم قصر النيل ليمارسوا العادة الأقرب إلى قلوبهم؛ تجاهل رغباتي. وددتُ أن أعاتب جدتي لأنها خرقت قواعدها لقتل الأوغاد، لكن نظرات هذا الضابط الذي يقف خلفنا وفي يده ليمونة منعتني من الكلام",
+    "pages": 148,
+    "publishedYear": "2023",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/5748273503?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض",
+      "روايات وأدب",
+      "رعب وإثارة",
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "رعب وإثارة"
+  },
+  {
+    "id": "57599734",
+    "title": "أوراق شمعون المصري",
+    "author": "أسامة عبد الرؤف الشاذلي",
+    "rating": 5,
+    "averageRating": 4.52,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1617297686l/57599734._SY600_.jpg",
+    "dateAdded": "Thu, 13 Jul 2023 13:56:59 -0700",
+    "dateRead": "Thu, 13 Jul 2023 00:00:00 +0000",
+    "shelves": [],
+    "description": "\"وبعد… فهذا خِتامُ ما كتبَهُ \"شمعون بن زخاري\"، والملقب بشَمْعون المَصْري، عن أخبارِ بني إسرائيل في برية سين، وما كان من أمرِهم منذ عبور البحر وحتى وفاة موسى بن عمران. وأعلم أني ما كتبت في هذه الرقاع إلا أحَدَ أمرين، أمر شهدته بعيني أو أمر سمعته من رجل من الرجال الثِّقات. وأُشِهد الربَّ (إيل)، أني ما بغيْتُ بهذا الكتاب مجدًا ولا شرفًا، وإنما إظهار شهادتي على جيل من شعب بني إسرائيل، اصطفاه الله وأنجاه بمعجزة من عدوِّه، ثم غضب عليه وأهلكه في تلك البرية القفراء، بعد أن أذاقه شقاء الارتحال ومرارة التيه. هذا كتاب لا أدري من سيكون قارئه، فأيًا من تكن أرجو أن تتذكر كاتب هذه الأبواب بالرحمة وأن تَدعو له بالغفران\" شمعون بن زخاري بن رأوبين الملقب بشمعون المصريتم في الليلة الأخير",
+    "pages": 453,
+    "publishedYear": "2021",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/5684400142?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير",
+      "روايات وأدب",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "تاريخ وسير"
+  },
+  {
+    "id": "2318863",
+    "title": "شيفرة دافنشي (روبرت لانغدون، #2)",
+    "author": "Dan    Brown",
+    "rating": 5,
+    "averageRating": 4.25,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1322318973l/2318863.jpg",
+    "dateAdded": "Wed, 21 Dec 2022 08:17:02 -0800",
+    "dateRead": "Wed, 21 Dec 2022 00:00:00 +0000",
+    "shelves": [],
+    "description": "يحتوي رقم ISBN 9789953297873 / 9953297878 على عدة أغلفة يمكن العثور عليها هنا: شيفرة دافنشي - شيفرة دافنشي - شيفرة دافنشي - شيفرة دافنشي ضمن أجواء غامضة يدور بحث البروفيسور لانغدون أستاذ علم الرموز الدينية في جامعة هارفارد عن سر الرسالة التي تركها جد صوفي خلف لوحة ليوناردو دافنشي \"مادونا أوف ذا روكس\" والتي كانت حلقة أخرى تضاف إلى سلسلة من الرموز المرتبطة ببعضها البعض، حيث كان جد صوفي سونيير ذا ولع شديد بالجانب الغامض والعبثي لليوناردو دافنشي. وفي الوقت ذاته كان اهتمام البروفيسور لانغدون وولعه شديداً بالرموز الدينية وبفكها، فكتبه حول الرسومات الدينية وعلم الرموز جعلت منه معارضاً مشهوراً في عالم الفن حتى غدا حضوره قوياً وشهرته واسعة وخاصة بعد تورطه في حادثة في الفاتيكان، تلك الحادثة أخذت أبعاداً إعلانية إلى درجة جعلت أهل الفن مهتمين به إلى أبعد الحدود. ينطلق لانغدون وصوفي في رحلة بحثية تمر في شوارع روما متوقفة عند كاتدرائياتها مروراً إلى باريس متوقفة عند متحف اللوفر في رحلة مشوقة لمعرفة سر رسالة جد صوفي، والتي فتحت آفاقاً إلى اكتشاف سر الفارس المخلد في قصيدة دونت ضمن تلك الرسالة وذلك ضمن أجواء بوليسية شيقة وبأسلوب تميز به الكاتب دان براون في قصصه ذات الطابع البوليسي، ويمكن القول بأن \"شيفرة دافنتشي\" هذه تتجاوز بتصنيفها الرواية البوليسية المثيرة بمراحل عديدة إذ أنها يلفها غموض ممتع مرتكز على أسرار بشكل ألغاز. تشد القارئ إلى درجة كبيرة متابعاً تفاصيل تلك الرواية بمزيد من المتع والذهول.",
+    "pages": 494,
+    "publishedYear": "2003",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/4983074345?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "جريمة وغموض"
+  },
+  {
+    "id": "10713286",
+    "title": "Outwitting the Devil: The Secret to Freedom and Success",
+    "author": "Napoleon Hill",
+    "rating": 5,
+    "averageRating": 4.27,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328767473l/10713286.jpg",
+    "dateAdded": "Wed, 21 Dec 2022 08:14:47 -0800",
+    "dateRead": "Wed, 21 Dec 2022 00:00:00 +0000",
+    "shelves": [],
+    "description": "Napoleon Hill wrote this book in 1938, just after publication of his all-time bestseller, Think and Grow Rich. This powerful tale has never been published, considered too controversial by his family and friends. Using his legendary ability to get to the root of human potential, Napoleon Hill digs deep to identify the greatest obstacles we face in reaching personal fear, procrastination, anger, and jealousy, as tools of the Devil. These hidden methods of control can lead us to ruin, and Hill reveals the seven principles of good that will allow us to triumph over them and succeed. Annotated and edited for a contemporary audience by Rich Dad, Poor Dad and Three Feet from Gold co-author Sharon Lechter, this book is profound, powerful, resonant, and rich with insight.",
+    "pages": 269,
+    "publishedYear": "",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/4983055398?utm_medium=api&utm_source=rss",
+    "isArabic": false,
+    "genres": [
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات"
+  },
+  {
+    "id": "29779170",
+    "title": "إيلون ماسك: شركتا تيسلا، سبيس اكس و التطلع لمستقبل رائع",
+    "author": "Ashlee Vance",
+    "rating": 5,
+    "averageRating": 4.27,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1530957658l/29779170._SY600_.jpg",
+    "dateAdded": "Sat, 09 Jul 2022 11:34:47 -0700",
+    "dateRead": "Sat, 9 Jul 2022 00:00:00 +0000",
+    "shelves": [],
+    "description": "هناك القليل من رجال الصناعة في التاريخ الذين استطاعوا مضاهاة دافع ماسك الذي لا يلين ورؤيته الإبداعية. إنه مزيج حديث من توماس إديسون وهنري فورد وهاوارد هيوز وستيف جوبز. ماسك هو الرجل الذي وراء شركات باي بال وتيسلا موتورز وسبيس إكس وسولار سيتي، والتي أثارت كل منها الانبهار في جميع أنحاء مجال الأعمال والصناعة الأمريكي. وأكثر من أي تنفيذي آخر اليوم، كرس ماسك طاقاته وثروته الطائلة لابتكار مستقبل ثري وطويل الأثر مثل تصور الخيال العلمي. في هذه القصة المرحة والاستقصائية، يقدم آشلي فاينس - الصحفي المخضرم في مجال التكنولوجيا - نظرة غير مسبوقة في الحياة والأوقات الرائعة لأكثر رجال أعمال وادي السيليكون جرأة. ولأن هذا الكتاب قائم على تواصل حصري مع ماسك وعائلته وأصدقائه، فإنه يتتبع رحلته من نشأته الصعبة في جنوب أفريقيا إلى صعوده إلى قمة عالم إدارة الأعمال الدولية. أمضى فاينس أكثر من خمسين ساعة في النقاش مع ماسك وأجرى مقابلات شخصية مع ما يقرب من 300 شخص لسرد القصص الصاخبة لشركات ماسك المغيرة للعالم ورسم صورة رجل غامض جدد الصناعة الأمريكية وأثار مستويات جديدة من الابتكار – كل ذلك في أثناء مواجهة العديد من الأعداء على طول الطريق.",
+    "pages": 391,
+    "publishedYear": "2015",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/4680095900?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير"
+  },
+  {
+    "id": "42657211",
+    "title": "صاحب الظل الطويل",
+    "author": "Jean Webster",
+    "rating": 5,
+    "averageRating": 4.13,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1541616927l/42657211._SY600_.jpg",
+    "dateAdded": "Fri, 10 Jun 2022 16:19:45 -0700",
+    "dateRead": "Fri, 10 Jun 2022 00:00:00 +0000",
+    "shelves": [],
+    "description": "\".. وبصراحة، بدأت أشعر أن العالم هو بيتي، وكأنني أنتمي حقاً إليه، ولستُ أزحف على سطحه وحسب\" ثمة جاذبية استثنائية في القصص التي يتصدى الأيتام لبطولتها، لأنها بطولة حقيقية. عندما تخرج إلى العالم، وتتصدى إليه بصدرٍ مكشوف، دون منظومة اجتماعية تعمل على دعمك وحمايتك. يبدو الأمر منطقيًا إذا تذكّرنا أكثر قصص الطفولة التي تركت آثارها في قلوبنا؛ هايدي، آني، طرزان، سارة أو سالي، أوليفر تويست، توم سوير وحتى هاري بوتر. إنّ هؤلاء هم الأبطال، الذين نتعلّم من خلالهم أن نحبَّ الحياة، وأن ننتمي للعالم حقًا، بتعبير جودي آبوت. كتبت هذه الرواية في 1912، ومنذ ذلك الحين وهي مصدر إلهامٍ للقرّاء والكتّاب والفنانين على حدّ سواء، وقد تم تحويلها مرارًا إلى عروض مسرحية وموسيقية، أفلام ومسلسلات وحتى إلى مسلسلات كرتونية. تحكي هذه الرواية مغامرة جودي آبوت، التي خرجت من الميتم، لأن أحد الأوصياء قرر التكفّل بعملية تعليمها بعد أن لاحظ موهبتها الاستثنائية في الكتابة، والكتابة الطريفة تحديدًا، وإصرارها على السعادة بصفتها خيارًا في الحياة، وليست حقًا مكتسبًا من الولادة. تعتبر هذه الرواية بمثابة النّص المضاد لكل الحكايات الخرافية. إنها تفنّد، ببطءٍ ونعومة، حكاية الأميرة حبيسة البرج التي تنتظر أميرًا مخلّصًا، وإذا كان هناك منقذٌ يظهر في بداية العمل، على هيئة ظلٍ طويل ومجهول، فسنتتبع معًا مسار جودي وهي تخرج من وصايتهِ، وتتخذ قراراتها بنفسها، وتكبر كما لم يخطر ببالِ أحد.",
+    "pages": 233,
+    "publishedYear": "1912",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/4751670038?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "رومانسي وعلاقات",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "رومانسي وعلاقات"
+  },
+  {
+    "id": "48671925",
+    "title": "لن ننسى أبداً",
+    "author": "Michel Bussi",
+    "rating": 5,
+    "averageRating": 4.2,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1596007825l/48671925._SY600_.jpg",
+    "dateAdded": "Sun, 01 May 2022 16:12:25 -0700",
+    "dateRead": "Wed, 2 Mar 2022 00:00:00 +0000",
+    "shelves": [],
+    "description": "\"فكَّر للحظة قصيرة بأنه أمام أجمل فتاة يراها في حياته، وقد تمكَّن من إنقاذ حياتها. لحظة قصيرة، لكنها كانت كافية ليفقد تركيزه. جرَّت الفتاة الوشاح ناحيتها بحركة مفاجئة، وهو ما لم يتوقّعه جمال أبداً. كانت حركة مباغِتة وسريعة انزلق الوشاح من بين يديه. أمّا ما جرى بعد ذلك فلم يستغرق أكثر من جزء من الثانية. تجمّدت نظرات الفتاة، ثابتة لا يمكن محوها أو نسيانها، نظرات فتاة تطّل من نافذة قطار متحرِّك. نظرات منكوبة. - لااااا! صرخ جمال. كان وشاح الكشمير الأحمر الذي يرفرف بين أصابع الفتاة آخر ما رآه جمال، فقد سقطت الشابة في الفراغ في اللحظة الموالية. حياة جمال هي الأخرى سقطت في الفراغ، لكنه لم يكُن مدرِكاً في تلك اللحظة حقيقة ذلك\". * * * \"لن ننسى أبداً\" هي ثالث رواية لبوسي تُترجم إلى اللغة العربية، وقد اختار كاتبنا الموهوب في هذا العمل الجميل أن يكون بطله عربياً، كاشفاً لنا الأفكار المسبقة السائدة في المجتمعات الغربية، وذلك انطلاقاً من التفاعل مع الاسم العربي، كما جاء على لسان البطل في تعريفه عن نفسه: \"اسمي جمال. جمال سلاوي. لا أعتقد بأنه اسم قد يجلب الحظ لصاحبه\"",
+    "pages": 560,
+    "publishedYear": "2014",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/4532484145?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض"
+    ],
+    "primaryGenre": "جريمة وغموض"
+  },
+  {
+    "id": "7528222",
+    "title": "الأب الغني والأب الفقير",
+    "author": "Robert T. Kiyosaki",
+    "rating": 5,
+    "averageRating": 3.77,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1409346703l/7528222.jpg",
+    "dateAdded": "Sun, 10 Oct 2021 13:28:14 -0700",
+    "dateRead": "Sun, 10 Oct 2021 00:00:00 +0000",
+    "shelves": [],
+    "description": "حقق كتاب الأب الغنى والأب الفقير انتشاراً كبير على المستوى العالمى وترجم الكتاب الى معظم لغات العالم الأبطال يجعلون المصاعب تبدوا هينة، فإذا كانوا هم قادرين على فعلها، فكذلك أنا وأنت. حين يجعل الكثيرون عملية الاستثمار صعبة وخطيرة بل مستحيلة، ابحث عن أبطالك وتصرف كما كانوا ليتصرفوا لو كانوا مكانك. فى هذا الكتاب ما يعلِّمه الأثرياء ولا يعلِّمه الفقراء وأفراد الطبقة الوسطى لأبنائهم عن المال . كما ستجد فى هذا الكتاب :- * يقضى على أسطورة الحاجة إلى دخل مرتفع من أجل تحصيل الثروة . * يتحدى المعتقد السائد بأن منزلك يعد من الأصول * يبين للوالدين كيف أنهما لا يستطيعان التعويل على النظام المدرسى فى تعليم أبنائهما طبيعة المال * يحدد بوضوح تام ما هى الأصول وما الخصوم ؟ * يعلمك ما تلقنه لأبنائك عن المال , حتى يحققوا مستقبلاً مالياً ناجحا .",
+    "pages": 233,
+    "publishedYear": "1997",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/4253577459?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات"
+  },
+  {
+    "id": "8790777",
+    "title": "تاريخ موجز للزمان: من الانفجار الكبير حتى الثقوب السوداء",
+    "author": "Stephen W. Hawking",
+    "rating": 5,
+    "averageRating": 3.95,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1281217338l/8790777.jpg",
+    "dateAdded": "Thu, 12 Aug 2021 14:27:16 -0700",
+    "dateRead": "Thu, 12 Aug 2021 00:00:00 +0000",
+    "shelves": [],
+    "description": "كتاب تاريخ موجز للزمان هو بمثابة رحلة لملاح بارع يجوب آفاقا عجيبة في علم التكوين والفيزياء، مستنداً إلى موهبة علمية فذة وسعة أفق خلاقة بحثاً عن الطريق إلى نظرية علمية كبرى توحد سائر النظريات. وكتابه هذا أول كتاب يؤلفه لغير المتخصصين، وقد اثار ضجة كبرى في الأوساط الثقافية والعلمية. ويتناول فيه الزمان والكون وطبيعتهما. وأى تناول كهذا لا بد وأن يؤدى إلى الحديث عن الحركة وانفضاء والنجوم والكواكب والمجرات. ويستعرض الكتاب بأبسط أسلوب ممكن مسيرة النظريات الكبرى عن الزمان والكون إبتداءا من أرسطو فجاليليو ونيوتن وإينيشتين. ثم يقوم الموقف بفكرة في اعماق الفضاء في مغامرة فدة، مهتدياً بالعلم مع الخيال النشط الخلاق، في محاولات لإيجاد خطوط نظرية جديدة توحد أهم نظريات القرن العشرين بلا تناقض، وخاصة نظريتي النسبية وميكانيكا الكم. ونظرية موحدة كهذه قد يكون فيها الإجابة عن أسئلة لطالما حيرت العلماء وما زالت تحيرهم، فهل يمكن أن ينكمش الكون مثلا بدلاً من أن يتمدد؟ وهل يرتد الزمان وقتها وراء بني البشر موتهم قبل ميلادهم؟ وهل للكون بداية و/أو نهاية؟ وكيف تكونان؟ وهل للكون حدود؟ إن إينشتين قد جعل للمكان - الزمان أربعة أبعاد، فماذا لو كان الكون أبعاد أكثر؟ كان يكون له مثلاً أحد عشر بعداً أو أكثر؟ هذه بعض المسائل التي تناولها الكاتب في كتابه تاريخ موجز للزمان بأسلوب جلي مبسط ومثير بما يشد القارئ طول الوقت، وربما جعل النقاد العلميين يصفونه بأنه كتاب كلاسيكي منذ ظهوره، فهو من علامات الطريق في فلسفة ومنهج العلم بحيث لا غنى لمثقف من الإطلاع عليه.",
+    "pages": 163,
+    "publishedYear": "1988",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/4110379868?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم"
+  },
+  {
+    "id": "54614037",
+    "title": "The God Equation: The Quest for a Theory of Everything",
+    "author": "Michio Kaku",
+    "rating": 5,
+    "averageRating": 4.06,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1611106744l/54614037._SY600_.jpg",
+    "dateAdded": "Sun, 27 Jun 2021 10:47:39 -0700",
+    "dateRead": "Sun, 27 Jun 2021 00:00:00 +0000",
+    "shelves": [],
+    "description": "When Newton discovered the law of gravity, he unified the rules governing the heavens and the Earth. Since then, physicists have been placing new forces into ever-grander theories. But perhaps the ultimate challenge is achieving a monumental synthesis of the two remaining theories--relativity and the quantum theory. This would be the crowning achievement of science, a profound merging of all the forces of nature into one beautiful, magnificent equation to unlock the deepest mysteries in science: What happened before the Big Bang? What lies on the other side of a black hole? Are there other universes and dimensions? Is time travel possible? Why are we here? Kaku also explains the intense controversy swirling around this theory, with Nobel laureates taking opposite sides on this vital question.",
+    "pages": 225,
+    "publishedYear": "2021",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/4058477203?utm_medium=api&utm_source=rss",
+    "isArabic": false,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم"
+  },
+  {
+    "id": "38401168",
+    "title": "غدا",
+    "author": "Guillaume Musso",
+    "rating": 5,
+    "averageRating": 4.15,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1667139497l/38401168._SY600_.jpg",
+    "dateAdded": "Tue, 01 Jun 2021 15:36:06 -0700",
+    "dateRead": null,
+    "shelves": [],
+    "description": "Elle est son passé... ... il est son avenir. Emma vit à New York. À 32 ans, elle continue de chercher l homme de sa vie. Matthew habite à Boston. Il a perdu sa femme dans un terrible accident et élève seul sa fille de quatre ans. Ils font connaissance grâce à Internet et bientôt, leurs échanges de mails les laissent penser qu ils ont enfin droit au bonheur. Désireux de se rencontrer, ils se donnent rendez-vous dans un petit restaurant italien de Manhattan. Le même jour à la même heure, ils poussent chacun à leur tour la porte du restaurant. Ils sont conduits à la même table et pourtant... ils ne se croiseront jamais. Jeu de mensonges ? Fantasme de l'un ? Manipulation de l'autre ? Victimes d une réalité qui les dépasse, Matthew et Emma vont rapidement se rendre compte qu il ne s agit pas d un simple rendez-vous manqué...",
+    "pages": 496,
+    "publishedYear": "2013",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/4035534135?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "رومانسي وعلاقات"
+    ],
+    "primaryGenre": "رومانسي وعلاقات"
+  },
+  {
+    "id": "44128744",
+    "title": "لماذا ننام: اكتشف طاقة النوم والأحلام",
+    "author": "Matthew Walker",
+    "rating": 5,
+    "averageRating": 4.28,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1632816279l/44128744._SY600_.jpg",
+    "dateAdded": "Tue, 01 Jun 2021 15:21:40 -0700",
+    "dateRead": null,
+    "shelves": [],
+    "description": "منحته كل من: London Evening Standard و Financial Times و Business Insider و Greater Good Magazine و The Stranger لقب أفضل كتاب لسنة 2017 طالما كان النوم جانباً من أكثر جوانب الحياة والصحة وطول العمر أهمية وأقلها وضوحاً إلى أن ظهرت مجموعة كبيرة من الاكتشافات العلمية خلال العقدين الأخيرين فبدأت تلقي على الموضوع ضوءاً جديداً. ثم جاء ماثيو ووكر، عالم الأعصاب وخبير النوم البارز ليبين بوضوح الأهمية الحاسمة للنوم الذي يعمل، مع وظائف كثيرة أخرى، على تعزيز قدرتنا على التعلم واتخاذ القرارات، وإعادة التوازن إلى انفعالاتنا وعواطفنا، وتقوية نظامنا المناعي، وتنظيم شهيتنا إلى الأكل. كتاب ساحر، مقنع، متميز بالرؤية الواضحة وبسهولة القراءة، ومن المؤكد أنه سيغير فهم القارئ للنوم والحلم وتقديره لهما تغييراً تاماً. ****** \"جولة ذكية في ميدان النوم الذي لا يزال فهمنا له غامضاً ... كتاب وضع لنفسه مهمة محددة: ووكر واقع في غرام النوم، ويريدنا أن نقع في غرامه مثله. والأمر لا يحتمل التأجيل. يقيم ووكر الحجة المقنعة على أننا مصابون \"بوباء نقص النوم الذي يفتك بنا صامتاً\" ويمثل \"أكبر تحدٍّ نواجهه في عصرنا\"... يدافع هذا الكتاب عن وجوب معالجة نقص النوم الذي نعانيه وعن حسنات النوم. كتاب يستحق أن يوضع إلى جانب السرير من أجل القراءة قبل النوم\". ـ New York Times Book Review \"عالم من كبار علماء النوم يدعونا إلى اعتبار النوم أكثر أهمية لصحتنا من النظام الغذائي والنشاط البدني\" The Times \"عالم أعصاب يوضح لنا كيف يجعلنا النوم الليلي الجيد أكثر ذكاء وجاذبية ورشاقة وصحة وسعادة ويحمينا من السرطان.\" The Guardian ****** د. ماثيو ووكر أستاذ علوم الأعصاب والفيزيولوجيا في جامعة بيركلي. ومدير “مركز علوم النوم البشري” وأستاذ سابق لعلم النفس في جامعة هارفارد. له أكثر من مئة دراسة علمية منشورة. شارك في برامج ‘60 دقيقة‘ و ‘نوفا‘ و‘بي بيس ي نيوز‘ و‘NPRs Science Friday‘. وهذا أول كتاب له.",
+    "pages": 510,
+    "publishedYear": "2017",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/4035510058?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات"
+  },
+  {
+    "id": "50025288",
+    "title": "متاهة الأرواح (مقبرة الكتب المنسية #4)",
+    "author": "Carlos Ruiz Zafón",
+    "rating": 5,
+    "averageRating": 4.61,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1569799359l/50025288._SX318_SY475_.jpg",
+    "dateAdded": "Tue, 01 Jun 2021 15:20:55 -0700",
+    "dateRead": null,
+    "shelves": [],
+    "description": "يصل بنا كارلوس زافون إلى محطته الأخيرة من ملحمة \"مقبرة الكتب المنسيّة\". متاهة الأرواح هي الحلقة الرابعة بعد سجين السماء ولعبة الملاك وظل الريح. رواية متوقّدة، لا تقلّ عن سابقاتها من حيث الحماسة والإثارة والتشويق، تعود بنا مرة أخرى إلى تلك الأزقة الضيقة التي يكتنفها غموضٌ مريب ولغزُ عصيب، ما بين برشلونة الزاهية ونقيضها اللعين، لتغدو المدينة مثل دوائر الجحيم يحوي بعضُها بعضًا. نقابل فيها وجوهًا جديدة، تنضم إلى الشخصيات السابقة وتتفاعل معها، وبدلًا من إرشادنا إلى ختمةٍ نهائيةٍ للرباعية، تتفتح الصفحات على سيناريوهات مختلفة. فتتسع لتشمل أمكنة أخرى، وتتعمّق في الحديث عن أزمنةٍ مهّدت للحرب والمأساة وما تبعها من أعوام التسلّط والقهر والخور. متاهة الأرواح، متاهة النهايات. لعبة أتقنها الروائي الذي كلما لملم الأوراق بعثرها. حبكة تعلّق بها القارئ الذي كلما استشفّ احتمالًا واردًا لنهايةٍ معقولة، فوجئ بالسرد ينعطف به إلى رؤية مغاير. يُقدّم لنا زافون أنموذجًا مميزًا على مرونة الرواية وقدرتها على السلاسة والتكثيف، كما يحتفي بعالم الكتب وفنون صوغ الحكاية، والعلاقة السحرية التي تتوطّد ما بين الأدب والحياة.",
+    "pages": 1040,
+    "publishedYear": "2016",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/4035508863?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "جريمة وغموض"
+    ],
+    "primaryGenre": "جريمة وغموض"
+  },
+  {
+    "id": "3503947",
+    "title": "يوتوبيا",
+    "author": "Ahmed Khaled Towfik",
+    "rating": 5,
+    "averageRating": 3.94,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1214056271l/3503947.jpg",
+    "dateAdded": "Tue, 01 Jun 2021 15:16:23 -0700",
+    "dateRead": null,
+    "shelves": [],
+    "description": "كنت أقول لهم : ـ \" هأنتم أولاء يا كلاب قد انحدر بكم الحال حتى صرتم تأكلون الكلاب . . ! لقد أنذرتكم ألف مرة . . حكيت لكم نظريات مالتوس وجمال حمدان ونبوءات أورويل وهـ . ج .ويلز . . لكنكم في كل مرة تنتشون بالحشيش والخمر الرخيصة وتنامون . . . الآن أنا أتأرجح بين الحزن على حالكم الذي هو حالي ، وبين الشماتة فيكم لأنكم الآن فقط تعرفون . . غضبتی عليكم كغضبة أنبياء العهد القديم على قومهم، فمنهم من راح يهلل ويغني عندما حاصر البابليون مدينته . . لقد شعر بأن اعتباره قد تم استرداده أخيراً حتى لو إنني ألعنكم يا بلهاء . . ألعنكم \" ! لكن ما أثار رعبي أنهم لا يبالون على الإطلاق . . لا يهتمون البتة . . إنهم يبحثون عن المرأة التالية ولفافة التبغ التالية والوجبة التالية ولا يشعرون بما وصلوا إليه . .",
+    "pages": 192,
+    "publishedYear": "2008",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/4035501329?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "خيال علمي وفانتازيا",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا"
+  },
+  {
+    "id": "42435292",
+    "title": "سجين السماء (مقبرة الكتب المنسية #3)",
+    "author": "Carlos Ruiz Zafón",
+    "rating": 5,
+    "averageRating": 4.22,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1540462975l/42435292._SY600_.jpg",
+    "dateAdded": "Tue, 01 Jun 2021 15:14:01 -0700",
+    "dateRead": null,
+    "shelves": [],
+    "description": "Barcelona, 1957. Daniel Sempere y su amigo Fermín, los héroes de La Sombra del Viento, regresan de nuevo a la aventura para afrontar el mayor desafío de sus vidas. Justo cuando todo empezaba a sonreírles, un inquietante personaje visita la librería de Sempere y amenaza con desvelar un terrible secreto que lleva enterrado dos décadas en la oscura memoria de la ciudad. Al conocer la verdad, Daniel comprenderá que su destino le arrastra inexorablemente a enfrentarse con la mayor de las sombras: la que está creciendo en su interior. Rebosante de intriga y emoción, El Prisionero del Cielo es una novela magistral donde los hilos de La Sombra del Viento y El Juego del Ángel convergen a través del embrujo de la literatura y nos conduce hacia el enigma que se oculta en el corazón del Cementerio de los Libros Olvidados.",
+    "pages": 365,
+    "publishedYear": "2011",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/4035497358?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب"
+  },
+  {
+    "id": "28679346",
+    "title": "ظل الريح (مقبرة الكتب المنسية، #1)",
+    "author": "Carlos Ruiz Zafón",
+    "rating": 5,
+    "averageRating": 4.44,
+    "coverUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1453790413l/28679346._SY600_.jpg",
+    "dateAdded": "Tue, 01 Jun 2021 15:12:38 -0700",
+    "dateRead": null,
+    "shelves": [],
+    "description": "-رواية لا تقاوم. حصلت في زمن قصير على ثناء شامل في كل العالم. وتضمنت من الأسرار والخفايا ما جعلها مُغوية مثل دمى الماتريوشكا الروسية. - لافيجارو استطاع كارلوس زافون أن يجمع بين غارثيا ماركيز وأمبرتو إيكو وخورخي لويس بورخيس في مشهد ساحر ومعقد ببراعة ثاقبة وكتابة عجيبة. - نيويورك تايمز يُقال أن الأدب القوطيّ الرفيع قد اندثر في القرن التاسع عشر، في حين يغير هذا الكتاب فكرتنا تمامًا. إذ يتمكن زافون من سرد حكايةٍ ملحميةٍ تحبسُ الأنفاس وتورّط القارئ في طلاسمها بمتعة قلّ مثيلها. - ستيفن كينغ من الصعب أن يعثر القارئ على رواية تحتوي على هذا القدر من العواطف والمآسي والإثارة مثل رواية \"ظل الريح\". - واشنطون بوست ستقرأ الرواية في جلسة واحدة ولن تنام الليل وأنت تتعقب ظل الريح. لن يسمح لك زافون بأن تترك الكتاب قبل أن تبلغ النهاية. - يوشكا فيشر، وزير خارجية ألمانيا الأسبق",
+    "pages": 527,
+    "publishedYear": "2001",
+    "goodreadsUrl": "https://www.goodreads.com/review/show/4035495087?utm_medium=api&utm_source=rss",
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "جريمة وغموض"
+    ],
+    "primaryGenre": "جريمة وغموض"
   }
 ]

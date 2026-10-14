@@ -52,9 +52,24 @@ async function main() {
     console.log('Saved screenshot-card-closeup.png');
   }
 
-  // 5. Capture All Books Catalog
+  // 5. Capture All Books Catalog (scroll through to trigger lazy load)
   const catalogEl = await page.$('#all-books');
   if (catalogEl) {
+    await page.evaluate(async () => {
+      window.scrollTo(0, document.body.scrollHeight);
+      await new Promise(r => setTimeout(r, 600));
+      window.scrollTo(0, document.querySelector('#all-books').offsetTop);
+      await new Promise(r => setTimeout(r, 600));
+      // Force load all visible images
+      const imgs = Array.from(document.querySelectorAll('#all-books img'));
+      await Promise.all(imgs.map(img => {
+        if (img.complete) return Promise.resolve();
+        return new Promise(resolve => {
+          img.onload = resolve;
+          img.onerror = resolve;
+        });
+      }));
+    });
     await catalogEl.screenshot({ path: 'screenshot-catalog.png' });
     console.log('Saved screenshot-catalog.png');
   }

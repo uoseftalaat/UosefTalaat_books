@@ -1,6 +1,7 @@
 /**
  * Books Archive Catalog Manager
- * Handles multi-filtering, search, and progressive pagination for 220+ books
+ * Handles multi-filtering by ratings (5, 4, 3 stars), genres (Horror, Romance, Crime, etc.),
+ * language (Arabic / English), book card genre tags, and progressive pagination.
  */
 
 export class BooksCatalog {
@@ -33,17 +34,14 @@ export class BooksCatalog {
       return;
     }
 
-    if (this.counterEl) {
-      this.counterEl.textContent = `${this.allBooks.length} كتاباً`;
-    }
-
+    this.updateCounter();
     this.filteredBooks = [...this.allBooks];
     this.bindEvents();
     this.render();
   }
 
   bindEvents() {
-    // Filter chips
+    // Filter chips (Ratings, Genres, Language)
     if (this.filterContainer) {
       this.filterContainer.addEventListener('click', (e) => {
         const chip = e.target.closest('.filter-chip');
@@ -69,7 +67,7 @@ export class BooksCatalog {
       });
     }
 
-    // Load More
+    // Load More Button
     if (this.loadMoreBtn) {
       this.loadMoreBtn.addEventListener('click', () => {
         this.visibleCount += this.pageSize;
@@ -78,25 +76,45 @@ export class BooksCatalog {
     }
   }
 
+  /**
+   * Programmatically set any active filter (genre, rating, language)
+   */
+  setFilter(filterValue) {
+    this.currentFilter = filterValue;
+    if (this.filterContainer) {
+      const chips = this.filterContainer.querySelectorAll('.filter-chip');
+      chips.forEach(c => {
+        c.classList.toggle('active', c.dataset.filter === filterValue);
+      });
+    }
+    this.applyFilters();
+  }
+
   applyFilters() {
     this.visibleCount = this.pageSize;
 
     this.filteredBooks = this.allBooks.filter(book => {
-      // Rating / Language filter
-      let matchesCategory = true;
-      if (this.currentFilter === '5-stars') {
-        matchesCategory = book.rating === 5;
+      // 1. Rating, Language, or Genre match
+      let matchesFilter = true;
+      if (this.currentFilter === 'all') {
+        matchesFilter = true;
+      } else if (this.currentFilter === '5-stars') {
+        matchesFilter = book.rating === 5;
       } else if (this.currentFilter === '4-stars') {
-        matchesCategory = book.rating === 4;
+        matchesFilter = book.rating === 4;
       } else if (this.currentFilter === '3-stars') {
-        matchesCategory = book.rating === 3;
+        matchesFilter = book.rating === 3;
       } else if (this.currentFilter === 'arabic') {
-        matchesCategory = book.isArabic === true;
+        matchesFilter = book.isArabic === true;
       } else if (this.currentFilter === 'english') {
-        matchesCategory = book.isArabic === false;
+        matchesFilter = book.isArabic === false;
+      } else {
+        // Genre match (checks genres array and primaryGenre)
+        matchesFilter = (Array.isArray(book.genres) && book.genres.includes(this.currentFilter)) ||
+                        book.primaryGenre === this.currentFilter;
       }
 
-      // Search query filter
+      // 2. Search query match
       let matchesSearch = true;
       if (this.searchQuery) {
         const titleMatch = (book.title || '').toLowerCase().includes(this.searchQuery);
@@ -104,10 +122,31 @@ export class BooksCatalog {
         matchesSearch = titleMatch || authorMatch;
       }
 
-      return matchesCategory && matchesSearch;
+      return matchesFilter && matchesSearch;
     });
 
+    this.updateCounter();
     this.render();
+  }
+
+  updateCounter() {
+    if (!this.counterEl) return;
+
+    if (this.currentFilter === 'all') {
+      this.counterEl.textContent = `${this.allBooks.length} كتاباً`;
+    } else if (this.currentFilter === '5-stars') {
+      this.counterEl.textContent = `${this.filteredBooks.length} كتب (تقييم ٥ نجوم)`;
+    } else if (this.currentFilter === '4-stars') {
+      this.counterEl.textContent = `${this.filteredBooks.length} كتب (تقييم ٤ نجوم)`;
+    } else if (this.currentFilter === '3-stars') {
+      this.counterEl.textContent = `${this.filteredBooks.length} كتب (تقييم ٣ نجوم)`;
+    } else if (this.currentFilter === 'arabic') {
+      this.counterEl.textContent = `${this.filteredBooks.length} كتاب عربي`;
+    } else if (this.currentFilter === 'english') {
+      this.counterEl.textContent = `${this.filteredBooks.length} كتاب إنجليزي`;
+    } else {
+      this.counterEl.textContent = `${this.filteredBooks.length} كتاباً في ${this.currentFilter}`;
+    }
   }
 
   renderStars(rating) {
@@ -122,7 +161,7 @@ export class BooksCatalog {
     if (toShow.length === 0) {
       this.grid.innerHTML = `
         <div class="catalog-empty-notice">
-          <p style="font-size: var(--text-base); color: var(--color-text-secondary);">ملقتش كتب مطابقة لبحثك.. جرب تدور باسم تاني أو غير الفلتر!</p>
+          <p style="font-size: var(--text-base); color: var(--color-text-secondary);">ملقتش كتب مطابقة لاختيارك.. جرب تختار فلتر تاني أو اضغط على «الكل»!</p>
         </div>
       `;
       if (this.loadMoreBtn) this.loadMoreBtn.style.display = 'none';
@@ -140,7 +179,6 @@ export class BooksCatalog {
 
       const fallbackCover = "data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D'200'%20height%3D'300'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Crect%20width%3D'100%25'%20height%3D'100%25'%20fill%3D'%23121417'%2F%3E%3Ctext%20x%3D'50%25'%20y%3D'50%25'%20fill%3D'%23F1F3F5'%20font-size%3D'14'%20text-anchor%3D'middle'%20dy%3D'.3em'%3E%D8%BA%D9%84%D8%A7%D9%81%20%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%3C%2Ftext%3E%3C%2Fsvg%3E";
       const coverSrc = book.coverUrl || fallbackCover;
-
       const excerpt = book.description ? book.description.trim() : '';
 
       card.innerHTML = `
@@ -170,17 +208,18 @@ export class BooksCatalog {
               <span class="catalog-meta-tag catalog-meta-lang">${book.isArabic ? 'كتاب عربي' : 'كتاب إنجليزي'}</span>
             </div>
 
-            <!-- Stars & Community Rating -->
-            <div class="catalog-rating-row">
-              ${book.rating > 0 ? `<div class="catalog-stars" aria-label="تقييمك: ${book.rating} من 5">${this.renderStars(book.rating)}</div>` : ''}
-              ${book.averageRating ? `<span class="catalog-rating-text">جودريدز: ${book.averageRating} ★</span>` : ''}
-            </div>
+            <!-- Personal Rating Stars Only -->
+            ${book.rating > 0 ? `
+              <div class="catalog-rating-row">
+                <div class="catalog-stars" aria-label="تقييمك: ${book.rating} من 5">${this.renderStars(book.rating)}</div>
+              </div>
+            ` : ''}
 
             <!-- Excerpt -->
             ${excerpt ? `<p class="catalog-excerpt" dir="auto">${excerpt}</p>` : ''}
           </div>
 
-          <!-- Card Footer: Metric & Pill Button (Button on outer edge) -->
+          <!-- Card Footer: Metric & Pill Button -->
           <div class="catalog-card-footer">
             ${book.averageRating ? `
               <div class="catalog-readers-indicator">

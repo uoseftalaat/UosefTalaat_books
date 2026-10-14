@@ -2,6 +2,7 @@ import fs from 'fs/promises';
 import path from 'path';
 import fetch from 'node-fetch';
 import { parseStringPromise } from 'xml2js';
+import { enrichAllBooks } from './enrich-genres.js';
 
 const USER_ID = process.env.GOODREADS_USER_ID || '116793505';
 const DATA_DIR = path.resolve('data');
@@ -167,7 +168,15 @@ async function main() {
     );
     console.log(`Saved five-stars.json (${fiveStars.length} books)`);
 
-    // 4. Fetch YouTube Videos via public channel RSS (long-form only)
+    // 4. Enrich all books with genres and literary classifications
+    console.log('Enriching books with genres...');
+    try {
+      await enrichAllBooks({ fetchOnline: true });
+    } catch (genreErr) {
+      console.warn('Genre enrichment warning:', genreErr.message);
+    }
+
+    // 5. Fetch YouTube Videos via public channel RSS (long-form only)
     console.log('Fetching YouTube videos (long-form only)...');
     try {
       const ytChannelId = 'UCoSrFnmXLkBuSAQLRNmsAsA';

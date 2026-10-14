@@ -13,7 +13,13 @@
     "pages": 349,
     "publishedYear": "2026",
     "goodreadsUrl": "https://www.goodreads.com/review/show/9004252329?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض"
+    ],
+    "primaryGenre": "جريمة وغموض",
+    "heroColorDark": "#2d2714",
+    "heroColor": "#5e5230"
   },
   {
     "id": "7101838",
@@ -29,7 +35,14 @@
     "pages": 230,
     "publishedYear": "1923",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8973070929?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#2a190d",
+    "heroColor": "#593922"
   },
   {
     "id": "53238040",
@@ -45,7 +58,14 @@
     "pages": 378,
     "publishedYear": "2020",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8892910559?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة",
+      "جريمة وغموض"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#2d0c14",
+    "heroColor": "#5f1f2f"
   },
   {
     "id": "205883430",
@@ -61,7 +81,14 @@
     "pages": 216,
     "publishedYear": "2024",
     "goodreadsUrl": "https://www.goodreads.com/review/show/7070968861?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#331c0e",
+    "heroColor": "#7a492b"
   },
   {
     "id": "12091888",
@@ -77,7 +104,16 @@
     "pages": 200,
     "publishedYear": "1895",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8841574450?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات",
+      "فلسفة وفكر وعلوم",
+      "تاريخ وسير",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#29160a",
+    "heroColor": "#57331b"
   },
   {
     "id": "51091267",
@@ -93,7 +129,14 @@
     "pages": 304,
     "publishedYear": "2018",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8511751117?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#332c1d",
+    "heroColor": "#7a6b4a"
   },
   {
     "id": "17188702",
@@ -109,7 +152,13 @@
     "pages": 160,
     "publishedYear": "1999",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8820564458?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#221b13",
+    "heroColor": "#473a2b"
   },
   {
     "id": "8239301",
@@ -125,7 +174,14 @@
     "pages": 463,
     "publishedYear": "2010",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8799753568?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#111530",
+    "heroColor": "#2a3165"
   },
   {
     "id": "58489093",
@@ -141,7 +197,15 @@
     "pages": 237,
     "publishedYear": "1979",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8744407995?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير",
+      "جريمة وغموض",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "جريمة وغموض",
+    "heroColorDark": "#0a2632",
+    "heroColor": "#1d5269"
   },
   {
     "id": "5663369",
@@ -157,7 +221,14 @@
     "pages": 287,
     "publishedYear": "1974",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8718664328?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#330e0a",
+    "heroColor": "#7a2b22"
   },
   {
     "id": "6780664",
@@ -173,7 +244,15 @@
     "pages": 96,
     "publishedYear": "1969",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8692053396?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "تاريخ وسير",
+      "رومانسي وعلاقات"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#33150a",
+    "heroColor": "#7a3922"
   },
   {
     "id": "212089160",
@@ -189,7 +268,15 @@
     "pages": 687,
     "publishedYear": "1994",
     "goodreadsUrl": "https://www.goodreads.com/review/show/7648590827?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم",
+      "خيال علمي وفانتازيا",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#2c2018",
+    "heroColor": "#5d4637"
   },
   {
     "id": "108654871",
@@ -205,7 +292,14 @@
     "pages": 248,
     "publishedYear": "2016",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8667822493?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#11242f",
+    "heroColor": "#2b4f63"
   },
   {
     "id": "242727812",
@@ -221,7 +315,15 @@
     "pages": 0,
     "publishedYear": "2003",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8567150682?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "جريمة وغموض",
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "جريمة وغموض",
+    "heroColorDark": "#332d0a",
+    "heroColor": "#7a6f22"
   },
   {
     "id": "241596043",
@@ -237,7 +339,14 @@
     "pages": 270,
     "publishedYear": "2019",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8633817600?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#33130a",
+    "heroColor": "#7a3522"
   },
   {
     "id": "248179898",
@@ -253,7 +362,13 @@
     "pages": 152,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8566399303?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رومانسي وعلاقات"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#331c0a",
+    "heroColor": "#7a4822"
   },
   {
     "id": "52690860",
@@ -269,7 +384,13 @@
     "pages": 207,
     "publishedYear": "2020",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035518598?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#0a1c22",
+    "heroColor": "#1a3c47"
   },
   {
     "id": "4917210",
@@ -285,7 +406,14 @@
     "pages": 176,
     "publishedYear": "1962",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8511751755?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رومانسي وعلاقات",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#1d2533",
+    "heroColor": "#4c5c7a"
   },
   {
     "id": "60220999",
@@ -301,7 +429,14 @@
     "pages": 320,
     "publishedYear": "2022",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8419779018?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رومانسي وعلاقات",
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#0d2f33",
+    "heroColor": "#28737a"
   },
   {
     "id": "17587693",
@@ -319,7 +454,16 @@
     "pages": 176,
     "publishedYear": "1947",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8456653020?utm_medium=api&utm_source=rss",
-    "isArabic": false
+    "isArabic": false,
+    "genres": [
+      "تاريخ وسير",
+      "جريمة وغموض",
+      "فلسفة وفكر وعلوم",
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "جريمة وغموض",
+    "heroColorDark": "#33140a",
+    "heroColor": "#7a3822"
   },
   {
     "id": "60332307",
@@ -335,7 +479,16 @@
     "pages": 208,
     "publishedYear": "1993",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8436634925?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "رعب وإثارة",
+      "خيال علمي وفانتازيا",
+      "جريمة وغموض"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#330a0e",
+    "heroColor": "#7a2229"
   },
   {
     "id": "3660304",
@@ -351,7 +504,13 @@
     "pages": 99,
     "publishedYear": "1961",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8425602925?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#1c302c",
+    "heroColor": "#3f665d"
   },
   {
     "id": "246918076",
@@ -367,7 +526,15 @@
     "pages": 352,
     "publishedYear": "2026",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8419779563?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض",
+      "روايات وأدب",
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#2c1309",
+    "heroColor": "#5d2e1a"
   },
   {
     "id": "12694178",
@@ -383,7 +550,14 @@
     "pages": 104,
     "publishedYear": "1988",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8387772072?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#331e0e",
+    "heroColor": "#7a4d2a"
   },
   {
     "id": "6792655",
@@ -399,7 +573,14 @@
     "pages": 98,
     "publishedYear": "1918",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8387771265?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#191b20",
+    "heroColor": "#323742"
   },
   {
     "id": "23692271",
@@ -415,7 +596,14 @@
     "pages": 512,
     "publishedYear": "2011",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8269117153?utm_medium=api&utm_source=rss",
-    "isArabic": false
+    "isArabic": false,
+    "genres": [
+      "تاريخ وسير",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#33130a",
+    "heroColor": "#7a3422"
   },
   {
     "id": "240370203",
@@ -431,7 +619,16 @@
     "pages": 304,
     "publishedYear": "2025",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8269118182?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض",
+      "روايات وأدب",
+      "خيال علمي وفانتازيا",
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#33160a",
+    "heroColor": "#7a3c22"
   },
   {
     "id": "34630850",
@@ -447,7 +644,14 @@
     "pages": 329,
     "publishedYear": "1981",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035522705?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#33240b",
+    "heroColor": "#7a5a24"
   },
   {
     "id": "43672879",
@@ -463,7 +667,15 @@
     "pages": 128,
     "publishedYear": "1990",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8244803168?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات",
+      "تاريخ وسير",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#0e2b2e",
+    "heroColor": "#255c60"
   },
   {
     "id": "113352746",
@@ -479,7 +691,15 @@
     "pages": 223,
     "publishedYear": "1904",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8142471028?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "خيال علمي وفانتازيا",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#101e33",
+    "heroColor": "#2c4974"
   },
   {
     "id": "200790032",
@@ -495,7 +715,14 @@
     "pages": 327,
     "publishedYear": "2023",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8089238996?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#330f0b",
+    "heroColor": "#7a2d24"
   },
   {
     "id": "223636027",
@@ -511,7 +738,13 @@
     "pages": 427,
     "publishedYear": "2025",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8089238372?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض"
+    ],
+    "primaryGenre": "جريمة وغموض",
+    "heroColorDark": "#330e0a",
+    "heroColor": "#7a2b22"
   },
   {
     "id": "58658049",
@@ -527,7 +760,13 @@
     "pages": 261,
     "publishedYear": "2016",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5423669545?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#2b1a1c",
+    "heroColor": "#572e33"
   },
   {
     "id": "8070229",
@@ -543,7 +782,13 @@
     "pages": 86,
     "publishedYear": "2010",
     "goodreadsUrl": "https://www.goodreads.com/review/show/8032614491?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#221108",
+    "heroColor": "#472616"
   },
   {
     "id": "60245622",
@@ -559,7 +804,13 @@
     "pages": 150,
     "publishedYear": "2024",
     "goodreadsUrl": "https://www.goodreads.com/review/show/7979158038?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض"
+    ],
+    "primaryGenre": "جريمة وغموض",
+    "heroColorDark": "#290b08",
+    "heroColor": "#571d18"
   },
   {
     "id": "15766171",
@@ -575,7 +826,15 @@
     "pages": 151,
     "publishedYear": "2010",
     "goodreadsUrl": "https://www.goodreads.com/review/show/7943665343?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "تاريخ وسير",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#330a0c",
+    "heroColor": "#7a2227"
   },
   {
     "id": "199062416",
@@ -591,7 +850,14 @@
     "pages": 226,
     "publishedYear": "2023",
     "goodreadsUrl": "https://www.goodreads.com/review/show/7926969208?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#0a2c33",
+    "heroColor": "#226b7a"
   },
   {
     "id": "15788197",
@@ -607,7 +873,15 @@
     "pages": 134,
     "publishedYear": "2006",
     "goodreadsUrl": "https://www.goodreads.com/review/show/7883116293?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "فلسفة وفكر وعلوم",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#332b0d",
+    "heroColor": "#7a6927"
   },
   {
     "id": "223636139",
@@ -623,7 +897,15 @@
     "pages": 357,
     "publishedYear": "2025",
     "goodreadsUrl": "https://www.goodreads.com/review/show/7874373815?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض",
+      "رعب وإثارة",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#33100a",
+    "heroColor": "#7a2f22"
   },
   {
     "id": "16181347",
@@ -639,7 +921,14 @@
     "pages": 272,
     "publishedYear": "2004",
     "goodreadsUrl": "https://www.goodreads.com/review/show/7869456438?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#33220c",
+    "heroColor": "#7a5627"
   },
   {
     "id": "217955130",
@@ -655,7 +944,13 @@
     "pages": 216,
     "publishedYear": "2024",
     "goodreadsUrl": "https://www.goodreads.com/review/show/7677571486?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#33140a",
+    "heroColor": "#7a3722"
   },
   {
     "id": "220628124",
@@ -671,7 +966,14 @@
     "pages": 669,
     "publishedYear": "2022",
     "goodreadsUrl": "https://www.goodreads.com/review/show/7427132471?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#33230a",
+    "heroColor": "#7a5722"
   },
   {
     "id": "54851656",
@@ -687,7 +989,14 @@
     "pages": 0,
     "publishedYear": "2013",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035512840?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#2c1d1a",
+    "heroColor": "#5c3830"
   },
   {
     "id": "43272032",
@@ -703,7 +1012,14 @@
     "pages": 236,
     "publishedYear": "1932",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4171747242?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#330a0a",
+    "heroColor": "#7a2222"
   },
   {
     "id": "43306206",
@@ -719,7 +1035,14 @@
     "pages": 288,
     "publishedYear": "2013",
     "goodreadsUrl": "https://www.goodreads.com/review/show/7407778191?utm_medium=api&utm_source=rss",
-    "isArabic": false
+    "isArabic": false,
+    "genres": [
+      "علم نفس وتطوير ذات",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#2e090a",
+    "heroColor": "#601a1b"
   },
   {
     "id": "199032242",
@@ -735,7 +1058,14 @@
     "pages": 48,
     "publishedYear": "1924",
     "goodreadsUrl": "https://www.goodreads.com/review/show/7384487174?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#261713",
+    "heroColor": "#50342c"
   },
   {
     "id": "42941162",
@@ -751,7 +1081,15 @@
     "pages": 192,
     "publishedYear": "2018",
     "goodreadsUrl": "https://www.goodreads.com/review/show/7334572350?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "فلسفة وفكر وعلوم",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#292218",
+    "heroColor": "#564a36"
   },
   {
     "id": "5999226",
@@ -767,7 +1105,14 @@
     "pages": 137,
     "publishedYear": "1942",
     "goodreadsUrl": "https://www.goodreads.com/review/show/7190978497?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#182325",
+    "heroColor": "#354a4f"
   },
   {
     "id": "22432865",
@@ -783,7 +1128,13 @@
     "pages": 181,
     "publishedYear": "2014",
     "goodreadsUrl": "https://www.goodreads.com/review/show/7186591849?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#2d221a",
+    "heroColor": "#5e4939"
   },
   {
     "id": "59362876",
@@ -799,7 +1150,14 @@
     "pages": 528,
     "publishedYear": "2021",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6347955553?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#330f15",
+    "heroColor": "#782d38"
   },
   {
     "id": "25635774",
@@ -815,7 +1173,15 @@
     "pages": 408,
     "publishedYear": "2015",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6572087135?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "جريمة وغموض",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "جريمة وغموض",
+    "heroColorDark": "#33190a",
+    "heroColor": "#7a4222"
   },
   {
     "id": "33412025",
@@ -831,7 +1197,14 @@
     "pages": 396,
     "publishedYear": "2016",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6967856178?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#29150c",
+    "heroColor": "#562f1f"
   },
   {
     "id": "57686676",
@@ -847,7 +1220,14 @@
     "pages": 332,
     "publishedYear": "2020",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6963908552?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#33260f",
+    "heroColor": "#7a5e2c"
   },
   {
     "id": "25240490",
@@ -863,7 +1243,15 @@
     "pages": 108,
     "publishedYear": "1959",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4605462817?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "خيال علمي وفانتازيا",
+      "رومانسي وعلاقات"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#0a3028",
+    "heroColor": "#1c6556"
   },
   {
     "id": "218659600",
@@ -879,7 +1267,14 @@
     "pages": 112,
     "publishedYear": "2024",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6901023516?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#330f0a",
+    "heroColor": "#772c21"
   },
   {
     "id": "218501387",
@@ -895,7 +1290,15 @@
     "pages": 478,
     "publishedYear": "2020",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6866862786?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة",
+      "جريمة وغموض",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#0a3332",
+    "heroColor": "#227a78"
   },
   {
     "id": "105606188",
@@ -911,7 +1314,14 @@
     "pages": 350,
     "publishedYear": "2023",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6861721440?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#33290e",
+    "heroColor": "#7a642b"
   },
   {
     "id": "205791637",
@@ -927,7 +1337,13 @@
     "pages": 159,
     "publishedYear": "2024",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6785005969?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رومانسي وعلاقات"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#33190e",
+    "heroColor": "#7a422b"
   },
   {
     "id": "11846755",
@@ -943,7 +1359,14 @@
     "pages": 278,
     "publishedYear": "1974",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6821285870?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض",
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "جريمة وغموض",
+    "heroColorDark": "#191b20",
+    "heroColor": "#323742"
   },
   {
     "id": "58742378",
@@ -959,7 +1382,13 @@
     "pages": 482,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6743199514?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#221207",
+    "heroColor": "#472913"
   },
   {
     "id": "58362445",
@@ -975,7 +1404,16 @@
     "pages": 442,
     "publishedYear": "2021",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6681064807?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض",
+      "علم نفس وتطوير ذات",
+      "روايات وأدب",
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#2a170f",
+    "heroColor": "#593526"
   },
   {
     "id": "35393382",
@@ -991,7 +1429,14 @@
     "pages": 680,
     "publishedYear": "2008",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035496361?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#330a0a",
+    "heroColor": "#7a2222"
   },
   {
     "id": "59060074",
@@ -1007,7 +1452,15 @@
     "pages": 334,
     "publishedYear": "2021",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6659003884?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "تاريخ وسير",
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#0c2530",
+    "heroColor": "#205065"
   },
   {
     "id": "13329487",
@@ -1023,7 +1476,13 @@
     "pages": 160,
     "publishedYear": "1926",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6531034211?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#33130a",
+    "heroColor": "#7a3522"
   },
   {
     "id": "60526192",
@@ -1039,7 +1498,15 @@
     "pages": 263,
     "publishedYear": "2022",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6458597645?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض",
+      "رعب وإثارة",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#220710",
+    "heroColor": "#471326"
   },
   {
     "id": "122782731",
@@ -1055,7 +1522,13 @@
     "pages": 191,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6444913327?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#332f0a",
+    "heroColor": "#7a7222"
   },
   {
     "id": "7937226",
@@ -1071,7 +1544,13 @@
     "pages": 76,
     "publishedYear": "1958",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6509562710?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#33200a",
+    "heroColor": "#7a5222"
   },
   {
     "id": "61382128",
@@ -1087,7 +1566,14 @@
     "pages": 393,
     "publishedYear": "2010",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4852996350?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض",
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#332c1d",
+    "heroColor": "#7a6c4b"
   },
   {
     "id": "207925882",
@@ -1103,7 +1589,15 @@
     "pages": 214,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6455827233?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رومانسي وعلاقات",
+      "تاريخ وسير",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#33180d",
+    "heroColor": "#7a4128"
   },
   {
     "id": "58409012",
@@ -1119,7 +1613,13 @@
     "pages": 208,
     "publishedYear": "2021",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5393909074?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#271508",
+    "heroColor": "#533118"
   },
   {
     "id": "43823412",
@@ -1135,7 +1635,16 @@
     "pages": 383,
     "publishedYear": "1998",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6317764611?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "تاريخ وسير",
+      "رومانسي وعلاقات",
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#332a21",
+    "heroColor": "#7a6853"
   },
   {
     "id": "3614179",
@@ -1151,7 +1660,15 @@
     "pages": 72,
     "publishedYear": "2001",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6449097737?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "علم نفس وتطوير ذات",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#2a201a",
+    "heroColor": "#59453b"
   },
   {
     "id": "205693930",
@@ -1167,7 +1684,15 @@
     "pages": 264,
     "publishedYear": "2024",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6324457740?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض",
+      "روايات وأدب",
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#092607",
+    "heroColor": "#195016"
   },
   {
     "id": "205689810",
@@ -1183,7 +1708,13 @@
     "pages": 224,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6310641017?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#0a2b33",
+    "heroColor": "#22697a"
   },
   {
     "id": "60593661",
@@ -1199,7 +1730,14 @@
     "pages": 396,
     "publishedYear": "1946",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6033298655?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#331513",
+    "heroColor": "#7a3a35"
   },
   {
     "id": "50251577",
@@ -1215,7 +1753,13 @@
     "pages": 427,
     "publishedYear": "2020",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6270714381?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#28201a",
+    "heroColor": "#544539"
   },
   {
     "id": "53590333",
@@ -1231,7 +1775,14 @@
     "pages": 424,
     "publishedYear": "2021",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6246771146?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "خيال علمي وفانتازيا",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#09112c",
+    "heroColor": "#1a295c"
   },
   {
     "id": "204957602",
@@ -1247,7 +1798,13 @@
     "pages": 216,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6256523379?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#331f14",
+    "heroColor": "#7a4f38"
   },
   {
     "id": "18270059",
@@ -1263,7 +1820,15 @@
     "pages": 211,
     "publishedYear": "1959",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6246770690?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة",
+      "جريمة وغموض",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#2f090a",
+    "heroColor": "#621b1c"
   },
   {
     "id": "60122526",
@@ -1279,7 +1844,17 @@
     "pages": 309,
     "publishedYear": "2022",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6198419784?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض",
+      "روايات وأدب",
+      "رعب وإثارة",
+      "خيال علمي وفانتازيا",
+      "رومانسي وعلاقات"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#0a1433",
+    "heroColor": "#22377a"
   },
   {
     "id": "50662325",
@@ -1295,7 +1870,13 @@
     "pages": 147,
     "publishedYear": "2020",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6204830726?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رومانسي وعلاقات"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#332911",
+    "heroColor": "#7a6631"
   },
   {
     "id": "83815000",
@@ -1311,7 +1892,15 @@
     "pages": 384,
     "publishedYear": "2015",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6142522906?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض",
+      "رعب وإثارة",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#330c0a",
+    "heroColor": "#7a2522"
   },
   {
     "id": "204636898",
@@ -1327,7 +1916,13 @@
     "pages": 272,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6198415569?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#332c0a",
+    "heroColor": "#7a6c22"
   },
   {
     "id": "58545050",
@@ -1343,7 +1938,14 @@
     "pages": 406,
     "publishedYear": "2021",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6041760674?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#0e332d",
+    "heroColor": "#2b7a6d"
   },
   {
     "id": "123014604",
@@ -1359,7 +1961,13 @@
     "pages": 176,
     "publishedYear": "2023",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6142521605?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#191b20",
+    "heroColor": "#323742"
   },
   {
     "id": "204636869",
@@ -1375,7 +1983,14 @@
     "pages": 310,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6116539650?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#082a0f",
+    "heroColor": "#185825"
   },
   {
     "id": "20317106",
@@ -1391,7 +2006,18 @@
     "pages": 223,
     "publishedYear": "2014",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5220511444?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رومانسي وعلاقات",
+      "روايات وأدب",
+      "خيال علمي وفانتازيا",
+      "تاريخ وسير",
+      "فلسفة وفكر وعلوم",
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#330a0b",
+    "heroColor": "#7a2223"
   },
   {
     "id": "51714048",
@@ -1407,7 +2033,14 @@
     "pages": 360,
     "publishedYear": "2019",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6014390309?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#331613",
+    "heroColor": "#7a3c35"
   },
   {
     "id": "50652951",
@@ -1423,7 +2056,15 @@
     "pages": 142,
     "publishedYear": "1931",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6028373211?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة",
+      "خيال علمي وفانتازيا",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#241a16",
+    "heroColor": "#4b3931"
   },
   {
     "id": "124943024",
@@ -1439,7 +2080,13 @@
     "pages": 150,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6020585544?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#33290d",
+    "heroColor": "#7a6629"
   },
   {
     "id": "52760975",
@@ -1455,7 +2102,14 @@
     "pages": 224,
     "publishedYear": "2012",
     "goodreadsUrl": "https://www.goodreads.com/review/show/6014389329?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#330a0f",
+    "heroColor": "#7a222d"
   },
   {
     "id": "61284152",
@@ -1471,7 +2125,13 @@
     "pages": 190,
     "publishedYear": "2022",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5973456045?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#32140c",
+    "heroColor": "#693121"
   },
   {
     "id": "60225461",
@@ -1487,7 +2147,13 @@
     "pages": 126,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5969439985?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#130f2e",
+    "heroColor": "#2d2760"
   },
   {
     "id": "34851800",
@@ -1503,7 +2169,14 @@
     "pages": 287,
     "publishedYear": "2007",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5497574074?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#2b1108",
+    "heroColor": "#5a2819"
   },
   {
     "id": "60121932",
@@ -1519,7 +2192,13 @@
     "pages": 301,
     "publishedYear": "2018",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5780001535?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض"
+    ],
+    "primaryGenre": "جريمة وغموض",
+    "heroColorDark": "#2d0909",
+    "heroColor": "#5e1a1b"
   },
   {
     "id": "85016890",
@@ -1535,7 +2214,16 @@
     "pages": 148,
     "publishedYear": "2023",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5748273503?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض",
+      "روايات وأدب",
+      "رعب وإثارة",
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#33260a",
+    "heroColor": "#7a5f22"
   },
   {
     "id": "10226323",
@@ -1551,7 +2239,14 @@
     "pages": 600,
     "publishedYear": "2006",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5573552672?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#0a2733",
+    "heroColor": "#22607a"
   },
   {
     "id": "187997308",
@@ -1567,7 +2262,13 @@
     "pages": 167,
     "publishedYear": "2023",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5727088263?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#33210a",
+    "heroColor": "#7a5322"
   },
   {
     "id": "6284614",
@@ -1583,7 +2284,16 @@
     "pages": 113,
     "publishedYear": "1923",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5699302821?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم",
+      "روايات وأدب",
+      "علم نفس وتطوير ذات",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#1a222e",
+    "heroColor": "#2c3e57"
   },
   {
     "id": "6289035",
@@ -1599,7 +2309,13 @@
     "pages": 188,
     "publishedYear": "1986",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5694649093?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#332e0f",
+    "heroColor": "#7a6f2d"
   },
   {
     "id": "57599734",
@@ -1615,7 +2331,15 @@
     "pages": 453,
     "publishedYear": "2021",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5684400142?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير",
+      "روايات وأدب",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#331e0f",
+    "heroColor": "#7a4d2c"
   },
   {
     "id": "58423825",
@@ -1631,7 +2355,13 @@
     "pages": 136,
     "publishedYear": "2021",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5675148088?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#330a11",
+    "heroColor": "#701f2c"
   },
   {
     "id": "77263752",
@@ -1647,7 +2377,13 @@
     "pages": 318,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5497573500?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#33250a",
+    "heroColor": "#7a5d22"
   },
   {
     "id": "56975679",
@@ -1663,7 +2399,13 @@
     "pages": 119,
     "publishedYear": "2021",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5630689243?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#2c1110",
+    "heroColor": "#5c2826"
   },
   {
     "id": "60686794",
@@ -1679,7 +2421,14 @@
     "pages": 301,
     "publishedYear": "2016",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5497573101?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#302118",
+    "heroColor": "#644937"
   },
   {
     "id": "38115237",
@@ -1695,7 +2444,15 @@
     "pages": 83,
     "publishedYear": "1910",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5393908571?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "رعب وإثارة",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#331e0c",
+    "heroColor": "#7a4d25"
   },
   {
     "id": "7493880",
@@ -1711,7 +2468,14 @@
     "pages": 120,
     "publishedYear": "1985",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5423667349?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "رومانسي وعلاقات"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#330a0a",
+    "heroColor": "#7a2222"
   },
   {
     "id": "25083059",
@@ -1727,7 +2491,16 @@
     "pages": 104,
     "publishedYear": "1915",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5391484543?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "فلسفة وفكر وعلوم",
+      "خيال علمي وفانتازيا",
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#330c0a",
+    "heroColor": "#7a2622"
   },
   {
     "id": "6388432",
@@ -1743,7 +2516,16 @@
     "pages": 192,
     "publishedYear": "1988",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5310848739?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "فلسفة وفكر وعلوم",
+      "خيال علمي وفانتازيا",
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#332a0a",
+    "heroColor": "#7a6822"
   },
   {
     "id": "5349310",
@@ -1759,7 +2541,14 @@
     "pages": 400,
     "publishedYear": "2006",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5368676943?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رومانسي وعلاقات",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#33200b",
+    "heroColor": "#7a5123"
   },
   {
     "id": "6632117",
@@ -1775,7 +2564,14 @@
     "pages": 113,
     "publishedYear": "2009",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5309056954?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#081727",
+    "heroColor": "#163452"
   },
   {
     "id": "58459024",
@@ -1791,7 +2587,15 @@
     "pages": 0,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5300522948?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات",
+      "فلسفة وفكر وعلوم",
+      "رومانسي وعلاقات"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#302418",
+    "heroColor": "#654f37"
   },
   {
     "id": "43689408",
@@ -1807,7 +2611,13 @@
     "pages": 265,
     "publishedYear": "2019",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5285823106?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#331b0d",
+    "heroColor": "#7a4628"
   },
   {
     "id": "87560732",
@@ -1823,7 +2633,13 @@
     "pages": 93,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5307813571?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#162627",
+    "heroColor": "#325053"
   },
   {
     "id": "21947735",
@@ -1839,7 +2655,15 @@
     "pages": 144,
     "publishedYear": "1945",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5303596006?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "خيال علمي وفانتازيا",
+      "روايات وأدب",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#332214",
+    "heroColor": "#7a5638"
   },
   {
     "id": "37555872",
@@ -1855,7 +2679,13 @@
     "pages": 279,
     "publishedYear": "2017",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4535500927?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#330e0a",
+    "heroColor": "#7a2b22"
   },
   {
     "id": "8875737",
@@ -1871,7 +2701,13 @@
     "pages": 111,
     "publishedYear": "1963",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5288839186?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#311014",
+    "heroColor": "#672731"
   },
   {
     "id": "29747857",
@@ -1887,7 +2723,13 @@
     "pages": 96,
     "publishedYear": "2016",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5286684174?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رومانسي وعلاقات"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#172b33",
+    "heroColor": "#365d6b"
   },
   {
     "id": "9002553",
@@ -1903,7 +2745,13 @@
     "pages": 98,
     "publishedYear": "1998",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5285824762?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#33120a",
+    "heroColor": "#7a3422"
   },
   {
     "id": "5664022",
@@ -1919,7 +2767,13 @@
     "pages": 160,
     "publishedYear": "1970",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5285823769?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#33200a",
+    "heroColor": "#7a5122"
   },
   {
     "id": "30612235",
@@ -1935,7 +2789,13 @@
     "pages": 384,
     "publishedYear": "2016",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4920332736?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#292218",
+    "heroColor": "#574a37"
   },
   {
     "id": "12859425",
@@ -1951,7 +2811,13 @@
     "pages": 92,
     "publishedYear": "2011",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5255365020?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#0c2d30",
+    "heroColor": "#205e66"
   },
   {
     "id": "5988580",
@@ -1967,7 +2833,13 @@
     "pages": 139,
     "publishedYear": "1978",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5238347951?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#33310a",
+    "heroColor": "#7a7622"
   },
   {
     "id": "58523218",
@@ -1983,7 +2855,14 @@
     "pages": 0,
     "publishedYear": "2021",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4430856632?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رومانسي وعلاقات",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#291409",
+    "heroColor": "#572e1a"
   },
   {
     "id": "52330251",
@@ -1999,7 +2878,13 @@
     "pages": 478,
     "publishedYear": "2017",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4070650191?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#330a0b",
+    "heroColor": "#7a2223"
   },
   {
     "id": "28557910",
@@ -2015,7 +2900,14 @@
     "pages": 178,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5210751238?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رومانسي وعلاقات",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#330e14",
+    "heroColor": "#7a2a37"
   },
   {
     "id": "42657538",
@@ -2031,7 +2923,13 @@
     "pages": 414,
     "publishedYear": "2018",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5149738244?utm_medium=api&utm_source=rss",
-    "isArabic": false
+    "isArabic": false,
+    "genres": [
+      "رومانسي وعلاقات"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#132b33",
+    "heroColor": "#356a7a"
   },
   {
     "id": "24298669",
@@ -2047,7 +2945,13 @@
     "pages": 134,
     "publishedYear": "2015",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5149735765?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#332c0a",
+    "heroColor": "#7a6b22"
   },
   {
     "id": "18165985",
@@ -2063,7 +2967,13 @@
     "pages": 198,
     "publishedYear": "1977",
     "goodreadsUrl": "https://www.goodreads.com/review/show/5149734474?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#23190f",
+    "heroColor": "#4a3725"
   },
   {
     "id": "60726415",
@@ -2079,7 +2989,13 @@
     "pages": 175,
     "publishedYear": "2022",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4985384703?utm_medium=api&utm_source=rss",
-    "isArabic": false
+    "isArabic": false,
+    "genres": [
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#191b20",
+    "heroColor": "#323742"
   },
   {
     "id": "5894734",
@@ -2095,7 +3011,14 @@
     "pages": 287,
     "publishedYear": "1985",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4985386990?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "جريمة وغموض",
+    "heroColorDark": "#330d0a",
+    "heroColor": "#7a2822"
   },
   {
     "id": "2318863",
@@ -2111,7 +3034,14 @@
     "pages": 494,
     "publishedYear": "2003",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4983074345?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "جريمة وغموض",
+    "heroColorDark": "#330a0c",
+    "heroColor": "#7a2225"
   },
   {
     "id": "10713286",
@@ -2127,7 +3057,13 @@
     "pages": 269,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4983055398?utm_medium=api&utm_source=rss",
-    "isArabic": false
+    "isArabic": false,
+    "genres": [
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#330a12",
+    "heroColor": "#7a2232"
   },
   {
     "id": "13454006",
@@ -2143,7 +3079,14 @@
     "pages": 272,
     "publishedYear": "1979",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4916157181?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رومانسي وعلاقات",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#29330a",
+    "heroColor": "#667a22"
   },
   {
     "id": "33141897",
@@ -2159,7 +3102,14 @@
     "pages": 80,
     "publishedYear": "1942",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4902649530?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#0b1625",
+    "heroColor": "#1c314f"
   },
   {
     "id": "50270374",
@@ -2175,7 +3125,14 @@
     "pages": 432,
     "publishedYear": "2017",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4825685538?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "رومانسي وعلاقات"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#1c1a31",
+    "heroColor": "#403b68"
   },
   {
     "id": "29779170",
@@ -2191,7 +3148,13 @@
     "pages": 391,
     "publishedYear": "2015",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4680095900?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#261608",
+    "heroColor": "#513216"
   },
   {
     "id": "13412477",
@@ -2207,7 +3170,13 @@
     "pages": 177,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4825682859?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#111b22",
+    "heroColor": "#263a47"
   },
   {
     "id": "34068331",
@@ -2223,7 +3192,14 @@
     "pages": 316,
     "publishedYear": "2017",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4796221900?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رومانسي وعلاقات",
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#143033",
+    "heroColor": "#31686c"
   },
   {
     "id": "42657211",
@@ -2239,7 +3215,14 @@
     "pages": 233,
     "publishedYear": "1912",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4751670038?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رومانسي وعلاقات",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#33110a",
+    "heroColor": "#6c2a1e"
   },
   {
     "id": "5767170",
@@ -2255,7 +3238,14 @@
     "pages": 183,
     "publishedYear": "2008",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4761282750?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة",
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#221618",
+    "heroColor": "#473035"
   },
   {
     "id": "6378987",
@@ -2271,7 +3261,14 @@
     "pages": 211,
     "publishedYear": "1987",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4070653433?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "خيال علمي وفانتازيا",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#330a15",
+    "heroColor": "#7a223a"
   },
   {
     "id": "34584485",
@@ -2287,7 +3284,14 @@
     "pages": 312,
     "publishedYear": "2015",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4742328306?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#241807",
+    "heroColor": "#4c3415"
   },
   {
     "id": "57601531",
@@ -2303,7 +3307,13 @@
     "pages": 223,
     "publishedYear": "2020",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035511094?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#072222",
+    "heroColor": "#134747"
   },
   {
     "id": "53208330",
@@ -2319,7 +3329,13 @@
     "pages": 268,
     "publishedYear": "1939",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4700758939?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#2a0b08",
+    "heroColor": "#581d18"
   },
   {
     "id": "48671925",
@@ -2335,7 +3351,13 @@
     "pages": 560,
     "publishedYear": "2014",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4532484145?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض"
+    ],
+    "primaryGenre": "جريمة وغموض",
+    "heroColorDark": "#330b0a",
+    "heroColor": "#7a2422"
   },
   {
     "id": "7654939",
@@ -2351,7 +3373,13 @@
     "pages": 138,
     "publishedYear": "2009",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4680098381?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#332618",
+    "heroColor": "#7a5f40"
   },
   {
     "id": "449573",
@@ -2367,7 +3395,13 @@
     "pages": 176,
     "publishedYear": "2002",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4694338653?utm_medium=api&utm_source=rss",
-    "isArabic": false
+    "isArabic": false,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#25110d",
+    "heroColor": "#4e2921"
   },
   {
     "id": "59493518",
@@ -2383,7 +3417,13 @@
     "pages": 262,
     "publishedYear": "2021",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4681997526?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#331d14",
+    "heroColor": "#7a4a37"
   },
   {
     "id": "42088878",
@@ -2399,7 +3439,13 @@
     "pages": 433,
     "publishedYear": "2015",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4605463991?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#331b0a",
+    "heroColor": "#7a4722"
   },
   {
     "id": "60173957",
@@ -2415,7 +3461,13 @@
     "pages": 128,
     "publishedYear": "2022",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4620971245?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#2a1212",
+    "heroColor": "#592c2b"
   },
   {
     "id": "49633627",
@@ -2431,7 +3483,13 @@
     "pages": 256,
     "publishedYear": "2013",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4424110408?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#33300a",
+    "heroColor": "#7a7422"
   },
   {
     "id": "55482052",
@@ -2447,7 +3505,13 @@
     "pages": 75,
     "publishedYear": "2020",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4535457590?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#0a2833",
+    "heroColor": "#22627a"
   },
   {
     "id": "25908559",
@@ -2463,7 +3527,14 @@
     "pages": 440,
     "publishedYear": "1992",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4589100054?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#2d090a",
+    "heroColor": "#5e1a1c"
   },
   {
     "id": "28261133",
@@ -2479,7 +3550,13 @@
     "pages": 274,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4584286162?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#33310a",
+    "heroColor": "#7a7622"
   },
   {
     "id": "16046788",
@@ -2495,7 +3572,13 @@
     "pages": 128,
     "publishedYear": "1938",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4484276802?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض"
+    ],
+    "primaryGenre": "جريمة وغموض",
+    "heroColorDark": "#0a2933",
+    "heroColor": "#22657a"
   },
   {
     "id": "11759492",
@@ -2511,7 +3594,14 @@
     "pages": 398,
     "publishedYear": "1987",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4222559167?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "رومانسي وعلاقات"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#330e16",
+    "heroColor": "#6e2735"
   },
   {
     "id": "5900786",
@@ -2527,7 +3617,14 @@
     "pages": 439,
     "publishedYear": "2000",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4321127117?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#311316",
+    "heroColor": "#682e34"
   },
   {
     "id": "5854156",
@@ -2543,7 +3640,13 @@
     "pages": 220,
     "publishedYear": "2006",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4341006999?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#330a0c",
+    "heroColor": "#7a2226"
   },
   {
     "id": "54858973",
@@ -2559,7 +3662,14 @@
     "pages": 166,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4330650342?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#0c1933",
+    "heroColor": "#25427a"
   },
   {
     "id": "20626771",
@@ -2575,7 +3685,13 @@
     "pages": 267,
     "publishedYear": "2009",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4281777694?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#331116",
+    "heroColor": "#7a303c"
   },
   {
     "id": "51239246",
@@ -2591,7 +3707,13 @@
     "pages": 339,
     "publishedYear": "2019",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035513446?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#0f2f2c",
+    "heroColor": "#26635d"
   },
   {
     "id": "40521147",
@@ -2607,7 +3729,13 @@
     "pages": 157,
     "publishedYear": "2018",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035531520?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#221b10",
+    "heroColor": "#483a25"
   },
   {
     "id": "16006955",
@@ -2623,7 +3751,13 @@
     "pages": 190,
     "publishedYear": "2000",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4321126454?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#1a222e",
+    "heroColor": "#2c3e57"
   },
   {
     "id": "8458742",
@@ -2639,7 +3773,13 @@
     "pages": 438,
     "publishedYear": "2006",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4281776936?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#162219",
+    "heroColor": "#304736"
   },
   {
     "id": "7528222",
@@ -2655,7 +3795,13 @@
     "pages": 233,
     "publishedYear": "1997",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4253577459?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#33290a",
+    "heroColor": "#7a6522"
   },
   {
     "id": "11205767",
@@ -2671,7 +3817,14 @@
     "pages": 399,
     "publishedYear": "1998",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4253577989?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رومانسي وعلاقات",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#331b0e",
+    "heroColor": "#7a472b"
   },
   {
     "id": "18366464",
@@ -2687,7 +3840,13 @@
     "pages": 68,
     "publishedYear": "2009",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4261685046?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#33110b",
+    "heroColor": "#7a3223"
   },
   {
     "id": "23915038",
@@ -2703,7 +3862,13 @@
     "pages": 233,
     "publishedYear": "2014",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4222554869?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#29140d",
+    "heroColor": "#562d21"
   },
   {
     "id": "12412545",
@@ -2719,7 +3884,13 @@
     "pages": 219,
     "publishedYear": "1998",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4253575899?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#191b20",
+    "heroColor": "#323742"
   },
   {
     "id": "17457685",
@@ -2735,7 +3906,13 @@
     "pages": 264,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4253573792?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#331e15",
+    "heroColor": "#7a4c3a"
   },
   {
     "id": "23228981",
@@ -2751,7 +3928,14 @@
     "pages": 398,
     "publishedYear": "2004",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4222554112?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "رومانسي وعلاقات"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#330b0c",
+    "heroColor": "#7a2327"
   },
   {
     "id": "58457010",
@@ -2767,7 +3951,13 @@
     "pages": 272,
     "publishedYear": "2021",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4171748130?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#071d22",
+    "heroColor": "#133d47"
   },
   {
     "id": "8790777",
@@ -2783,7 +3973,13 @@
     "pages": 163,
     "publishedYear": "1988",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4110379868?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#311e1a",
+    "heroColor": "#68443b"
   },
   {
     "id": "44650941",
@@ -2799,7 +3995,13 @@
     "pages": 192,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4142719141?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#332c0c",
+    "heroColor": "#7a6d25"
   },
   {
     "id": "20492184",
@@ -2815,7 +4017,13 @@
     "pages": 248,
     "publishedYear": "2014",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4142149021?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#2d0a10",
+    "heroColor": "#5f1c27"
   },
   {
     "id": "55671067",
@@ -2831,7 +4039,13 @@
     "pages": 479,
     "publishedYear": "2017",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4110379057?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#33250c",
+    "heroColor": "#7a5e26"
   },
   {
     "id": "54614037",
@@ -2847,7 +4061,13 @@
     "pages": 225,
     "publishedYear": "2021",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4058477203?utm_medium=api&utm_source=rss",
-    "isArabic": false
+    "isArabic": false,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#330d0a",
+    "heroColor": "#7a2922"
   },
   {
     "id": "38469754",
@@ -2863,7 +4083,13 @@
     "pages": 272,
     "publishedYear": "2016",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4071839106?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#2d1109",
+    "heroColor": "#5f291a"
   },
   {
     "id": "43680222",
@@ -2881,7 +4107,14 @@
     "pages": 1136,
     "publishedYear": "2013",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4070651104?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "جريمة وغموض"
+    ],
+    "primaryGenre": "جريمة وغموض",
+    "heroColorDark": "#322318",
+    "heroColor": "#694d38"
   },
   {
     "id": "16156658",
@@ -2897,7 +4130,13 @@
     "pages": 0,
     "publishedYear": "1935",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035524155?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض"
+    ],
+    "primaryGenre": "جريمة وغموض",
+    "heroColorDark": "#2c1d1a",
+    "heroColor": "#5c3830"
   },
   {
     "id": "43588685",
@@ -2913,7 +4152,13 @@
     "pages": 192,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4058479187?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رومانسي وعلاقات"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#102633",
+    "heroColor": "#2f5e7a"
   },
   {
     "id": "33141909",
@@ -2931,7 +4176,14 @@
     "pages": 433,
     "publishedYear": "1991",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4053126351?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "خيال علمي وفانتازيا",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#33210d",
+    "heroColor": "#6c4a22"
   },
   {
     "id": "53208792",
@@ -2947,7 +4199,14 @@
     "pages": 62,
     "publishedYear": "1949",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035536943?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#09292e",
+    "heroColor": "#1a5760"
   },
   {
     "id": "16076787",
@@ -2963,7 +4222,14 @@
     "pages": 266,
     "publishedYear": "2012",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035536215?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "خيال علمي وفانتازيا",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#33130a",
+    "heroColor": "#7a3622"
   },
   {
     "id": "18428222",
@@ -2979,7 +4245,14 @@
     "pages": 0,
     "publishedYear": "2002",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035535683?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#330a0e",
+    "heroColor": "#7a222a"
   },
   {
     "id": "5853529",
@@ -2995,7 +4268,13 @@
     "pages": 294,
     "publishedYear": "2007",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035534911?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#172422",
+    "heroColor": "#344d49"
   },
   {
     "id": "38401168",
@@ -3011,7 +4290,14 @@
     "pages": 496,
     "publishedYear": "2013",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035534135?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "رومانسي وعلاقات"
+    ],
+    "primaryGenre": "رومانسي وعلاقات",
+    "heroColorDark": "#2c130b",
+    "heroColor": "#5c2d1f"
   },
   {
     "id": "8108163",
@@ -3027,7 +4313,13 @@
     "pages": 222,
     "publishedYear": "1995",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035533332?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#0a2633",
+    "heroColor": "#225f7a"
   },
   {
     "id": "24324198",
@@ -3043,7 +4335,13 @@
     "pages": 296,
     "publishedYear": "2015",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035532019?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#162729",
+    "heroColor": "#325256"
   },
   {
     "id": "3491171",
@@ -3059,7 +4357,13 @@
     "pages": 455,
     "publishedYear": "1977",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035530870?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#332718",
+    "heroColor": "#7a6140"
   },
   {
     "id": "36527618",
@@ -3075,7 +4379,13 @@
     "pages": 382,
     "publishedYear": "2017",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035529913?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#331c1b",
+    "heroColor": "#7a4847"
   },
   {
     "id": "5954846",
@@ -3091,7 +4401,13 @@
     "pages": 412,
     "publishedYear": "1949",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035529187?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#221f0d",
+    "heroColor": "#47411f"
   },
   {
     "id": "25231736",
@@ -3107,7 +4423,13 @@
     "pages": 160,
     "publishedYear": "1961",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035528417?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض"
+    ],
+    "primaryGenre": "جريمة وغموض",
+    "heroColorDark": "#331d0a",
+    "heroColor": "#7a4a22"
   },
   {
     "id": "5977797",
@@ -3123,7 +4445,14 @@
     "pages": 162,
     "publishedYear": "1899",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035527874?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#111833",
+    "heroColor": "#31407a"
   },
   {
     "id": "7651652",
@@ -3139,7 +4468,13 @@
     "pages": 329,
     "publishedYear": "2009",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035526862?utm_medium=api&utm_source=rss",
-    "isArabic": false
+    "isArabic": false,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#261926",
+    "heroColor": "#4f3751"
   },
   {
     "id": "43455970",
@@ -3155,7 +4490,13 @@
     "pages": 184,
     "publishedYear": "2019",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035525539?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#331c0a",
+    "heroColor": "#7a4822"
   },
   {
     "id": "17183175",
@@ -3171,7 +4512,13 @@
     "pages": 191,
     "publishedYear": "2012",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035519918?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "فلسفة وفكر وعلوم",
+    "heroColorDark": "#2d1809",
+    "heroColor": "#5f371a"
   },
   {
     "id": "17992755",
@@ -3187,7 +4534,13 @@
     "pages": 471,
     "publishedYear": "2006",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035517911?utm_medium=api&utm_source=rss",
-    "isArabic": false
+    "isArabic": false,
+    "genres": [
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#261309",
+    "heroColor": "#512b18"
   },
   {
     "id": "18398527",
@@ -3203,7 +4556,13 @@
     "pages": 264,
     "publishedYear": "2008",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035517083?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#0a1a22",
+    "heroColor": "#1a3747"
   },
   {
     "id": "43566744",
@@ -3219,7 +4578,14 @@
     "pages": 400,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035516187?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة",
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#33280a",
+    "heroColor": "#7a6222"
   },
   {
     "id": "43749543",
@@ -3235,7 +4601,13 @@
     "pages": 303,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035511676?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#2d130c",
+    "heroColor": "#5f2e1f"
   },
   {
     "id": "37842353",
@@ -3251,7 +4623,13 @@
     "pages": 319,
     "publishedYear": "",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035510717?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#332b13",
+    "heroColor": "#7a6934"
   },
   {
     "id": "44128744",
@@ -3267,7 +4645,14 @@
     "pages": 510,
     "publishedYear": "2017",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035510058?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "علم نفس وتطوير ذات",
+      "فلسفة وفكر وعلوم"
+    ],
+    "primaryGenre": "علم نفس وتطوير ذات",
+    "heroColorDark": "#071122",
+    "heroColor": "#132847"
   },
   {
     "id": "50025288",
@@ -3283,7 +4668,14 @@
     "pages": 1040,
     "publishedYear": "2016",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035508863?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "جريمة وغموض"
+    ],
+    "primaryGenre": "جريمة وغموض",
+    "heroColorDark": "#33260a",
+    "heroColor": "#7a5e22"
   },
   {
     "id": "34088743",
@@ -3299,7 +4691,14 @@
     "pages": 391,
     "publishedYear": "2017",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035508012?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة",
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#312920",
+    "heroColor": "#675746"
   },
   {
     "id": "16118283",
@@ -3315,7 +4714,13 @@
     "pages": 94,
     "publishedYear": "2007",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035507149?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#330e0a",
+    "heroColor": "#7a2b22"
   },
   {
     "id": "6659861",
@@ -3331,7 +4736,13 @@
     "pages": 245,
     "publishedYear": "2009",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035506006?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#290a08",
+    "heroColor": "#561a18"
   },
   {
     "id": "39785977",
@@ -3347,7 +4758,13 @@
     "pages": 240,
     "publishedYear": "2018",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035504852?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#330e0a",
+    "heroColor": "#7a2a22"
   },
   {
     "id": "5822364",
@@ -3363,7 +4780,13 @@
     "pages": 95,
     "publishedYear": "2008",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035503755?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#33140a",
+    "heroColor": "#7a3722"
   },
   {
     "id": "37911553",
@@ -3379,7 +4802,13 @@
     "pages": 329,
     "publishedYear": "2018",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035501947?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#0a3329",
+    "heroColor": "#227a64"
   },
   {
     "id": "3503947",
@@ -3395,7 +4824,14 @@
     "pages": 192,
     "publishedYear": "2008",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035501329?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "خيال علمي وفانتازيا",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#331f0a",
+    "heroColor": "#7a5022"
   },
   {
     "id": "28590941",
@@ -3411,7 +4847,13 @@
     "pages": 327,
     "publishedYear": "2016",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035500608?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#0e1d22",
+    "heroColor": "#213d47"
   },
   {
     "id": "9753375",
@@ -3427,7 +4869,13 @@
     "pages": 288,
     "publishedYear": "2010",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035499917?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "خيال علمي وفانتازيا"
+    ],
+    "primaryGenre": "خيال علمي وفانتازيا",
+    "heroColorDark": "#220807",
+    "heroColor": "#471713"
   },
   {
     "id": "29350507",
@@ -3443,7 +4891,14 @@
     "pages": 408,
     "publishedYear": "2016",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035499244?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير",
+      "روايات وأدب"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#29140b",
+    "heroColor": "#572f1c"
   },
   {
     "id": "7704143",
@@ -3459,7 +4914,14 @@
     "pages": 389,
     "publishedYear": "2010",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035498379?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "جريمة وغموض",
+      "رعب وإثارة"
+    ],
+    "primaryGenre": "رعب وإثارة",
+    "heroColorDark": "#2f0a09",
+    "heroColor": "#621c1b"
   },
   {
     "id": "42435292",
@@ -3475,7 +4937,13 @@
     "pages": 365,
     "publishedYear": "2011",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035497358?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب"
+    ],
+    "primaryGenre": "روايات وأدب",
+    "heroColorDark": "#33260a",
+    "heroColor": "#7a5f22"
   },
   {
     "id": "28679346",
@@ -3491,7 +4959,14 @@
     "pages": 527,
     "publishedYear": "2001",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035495087?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "روايات وأدب",
+      "جريمة وغموض"
+    ],
+    "primaryGenre": "جريمة وغموض",
+    "heroColorDark": "#2b3321",
+    "heroColor": "#6b7a53"
   },
   {
     "id": "15979606",
@@ -3507,7 +4982,13 @@
     "pages": 284,
     "publishedYear": "2012",
     "goodreadsUrl": "https://www.goodreads.com/review/show/4035494456?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#332211",
+    "heroColor": "#7a5632"
   },
   {
     "id": "23516287",
@@ -3523,6 +5004,12 @@
     "pages": 88,
     "publishedYear": "1978",
     "goodreadsUrl": "https://www.goodreads.com/review/show/3455108201?utm_medium=api&utm_source=rss",
-    "isArabic": true
+    "isArabic": true,
+    "genres": [
+      "تاريخ وسير"
+    ],
+    "primaryGenre": "تاريخ وسير",
+    "heroColorDark": "#0a1033",
+    "heroColor": "#222f7a"
   }
 ]

@@ -4,6 +4,8 @@
   "description": "Personal reading website for Uosef Talaat with Goodreads RSS sync",
   "main": "scripts/fetch-goodreads.js",
   "scripts": {
+    "start": "python3 -m http.server 8088",
+    "serve": "python3 -m http.server 8088",
     "fetch-books": "node scripts/fetch-goodreads.js"
   },
   "dependencies": {

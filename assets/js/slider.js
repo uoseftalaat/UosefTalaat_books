@@ -63,16 +63,26 @@ export class BookSlider3D {
 
       card.appendChild(img);
       this.track.appendChild(card);
-
-      // Pagination Dot
-      if (this.dotsContainer) {
-        const dot = document.createElement('button');
-        dot.className = `slider-dot ${index === 0 ? 'active' : ''}`;
-        dot.dataset.index = index;
-        dot.setAttribute('aria-label', `انتقل إلى الكتاب رقم ${index + 1}`);
-        this.dotsContainer.appendChild(dot);
-      }
     });
+
+    // Pagination: Counter pill for large list, dots for small list
+    if (this.dotsContainer) {
+      if (this.books.length <= 8) {
+        this.books.forEach((_, index) => {
+          const dot = document.createElement('button');
+          dot.className = `slider-dot ${index === 0 ? 'active' : ''}`;
+          dot.dataset.index = index;
+          dot.setAttribute('aria-label', `انتقل إلى الكتاب رقم ${index + 1}`);
+          this.dotsContainer.appendChild(dot);
+        });
+      } else {
+        const counter = document.createElement('div');
+        counter.className = 'slider-counter-pill';
+        counter.id = 'slider-counter-display';
+        counter.textContent = `${this.currentIndex + 1} من ${this.books.length}`;
+        this.dotsContainer.appendChild(counter);
+      }
+    }
   }
 
   bindEvents() {
@@ -102,7 +112,7 @@ export class BookSlider3D {
       }
     });
 
-    // Dots click
+    // Dots click (if using dot buttons)
     if (this.dotsContainer) {
       this.dotsContainer.addEventListener('click', (e) => {
         const dot = e.target.closest('.slider-dot');
@@ -121,15 +131,15 @@ export class BookSlider3D {
       if (!inView) return;
 
       if (e.key === 'ArrowLeft') {
-        this.next(); // RTL: Left arrow moves forward
+        this.next();
         this.resetAutoPlay();
       } else if (e.key === 'ArrowRight') {
-        this.prev(); // RTL: Right arrow moves backward
+        this.prev();
         this.resetAutoPlay();
       }
     });
 
-    // Touch Swipe support
+    // Touch Swipe support (Reversed per user request)
     this.track.addEventListener('touchstart', (e) => {
       this.touchStartX = e.changedTouches[0].screenX;
       this.stopAutoPlay();
@@ -150,12 +160,11 @@ export class BookSlider3D {
     const diff = this.touchEndX - this.touchStartX;
     if (Math.abs(diff) < 40) return; // Threshold
 
+    // Reversed swipe direction per user request
     if (diff > 0) {
-      // Swipe Right -> in RTL this is previous
-      this.prev();
-    } else {
-      // Swipe Left -> in RTL this is next
       this.next();
+    } else {
+      this.prev();
     }
   }
 
@@ -166,7 +175,6 @@ export class BookSlider3D {
     cards.forEach((card, idx) => {
       let offset = idx - this.currentIndex;
 
-      // Handle cyclic wrapping for 5 elements
       if (offset > Math.floor(total / 2)) {
         offset -= total;
       } else if (offset < -Math.floor(total / 2)) {
@@ -188,12 +196,17 @@ export class BookSlider3D {
       }
     });
 
-    // Update Dots
+    // Update Dots / Counter
     if (this.dotsContainer) {
-      const dots = this.dotsContainer.querySelectorAll('.slider-dot');
-      dots.forEach((dot, idx) => {
-        dot.classList.toggle('active', idx === this.currentIndex);
-      });
+      const counterEl = document.querySelector('#slider-counter-display');
+      if (counterEl) {
+        counterEl.textContent = `${this.currentIndex + 1} من ${this.books.length}`;
+      } else {
+        const dots = this.dotsContainer.querySelectorAll('.slider-dot');
+        dots.forEach((dot, idx) => {
+          dot.classList.toggle('active', idx === this.currentIndex);
+        });
+      }
     }
 
     // Update Details panel
@@ -203,6 +216,8 @@ export class BookSlider3D {
   updateDetails() {
     if (!this.detailsBox || !this.books[this.currentIndex]) return;
     const book = this.books[this.currentIndex];
+    const fallbackDesc = 'من روائع الكتب اللي أثرت في طريقة تفكيري وتركت بصمة حقيقية.. تجربة قراءة استثنائية تستحق كل دقيقة.';
+    const desc = book.description && book.description.trim() ? book.description.trim() : fallbackDesc;
 
     this.detailsBox.style.opacity = '0';
     setTimeout(() => {
@@ -212,13 +227,15 @@ export class BookSlider3D {
         </div>
         <h3 class="slider-active-title font-editorial" dir="auto">${book.title}</h3>
         <p class="slider-active-author">${book.author}</p>
-        ${book.description ? `<p class="slider-active-desc">${book.description}</p>` : ''}
-        <a href="${book.goodreadsUrl}" target="_blank" rel="noopener noreferrer" class="btn-secondary" style="color: #F6F3EE; border-color: rgba(246, 243, 238, 0.25); margin-top: var(--space-3);">
-          <span>شوف الكتاب على Goodreads</span>
-          <svg style="width: 14px; height: 14px; fill: currentColor; transform: scaleX(-1);" viewBox="0 0 24 24">
-            <path d="M5 12h14M12 5l7 7-7 7"/>
-          </svg>
-        </a>
+        <p class="slider-active-desc" dir="auto">${desc}</p>
+        <div class="slider-active-cta-wrap">
+          <a href="${book.goodreadsUrl}" target="_blank" rel="noopener noreferrer" class="btn-secondary slider-cta-btn">
+            <span>شوف الكتاب على Goodreads</span>
+            <svg style="width: 14px; height: 14px; fill: currentColor; transform: scaleX(-1);" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </div>
       `;
       this.detailsBox.style.opacity = '1';
     }, 150);
