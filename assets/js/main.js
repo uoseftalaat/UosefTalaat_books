@@ -44,51 +44,88 @@ async function loadCurrentlyReading() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const items = await res.json();
 
+    container.className = 'currently-reading-track';
+    container.dataset.count = items ? items.length : 0;
+
     if (!items || items.length === 0) {
       container.innerHTML = `
-        <div style="text-align: center; padding: var(--space-8); color: var(--color-text-muted);">
+        <div class="currently-reading-card" style="text-align: center; padding: var(--space-8); color: var(--color-text-muted); width: 100%;">
           <p>مفيش كتاب شغال فيه حالياً، مستني الاختيار الجاي.</p>
         </div>
       `;
       return;
     }
 
-    const current = items[0];
     const fallbackCover = "data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D'240'%20height%3D'360'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Crect%20width%3D'100%25'%20height%3D'100%25'%20fill%3D'%231C1A17'%2F%3E%3Ctext%20x%3D'50%25'%20y%3D'50%25'%20fill%3D'%23F6F3EE'%20font-size%3D'16'%20text-anchor%3D'middle'%20dy%3D'.3em'%3E%D8%BA%D9%84%D8%A7%D9%81%20%D8%A7%D9%84%D9%83%D8%AA%D8%A7%D8%A8%3C%2Ftext%3E%3C%2Fsvg%3E";
-    const coverSrc = current.coverUrl || fallbackCover;
 
-    container.innerHTML = `
-      <div class="currently-grid">
-        <div class="book-cover-3d-wrapper">
-          <div class="book-volume" onclick="window.open('${current.goodreadsUrl}', '_blank')">
-            <img src="${coverSrc}" alt="${current.title}" onerror="this.src='${fallbackCover}'">
+    container.innerHTML = items.map(current => {
+      const coverSrc = current.coverUrl || fallbackCover;
+      return `
+        <article class="currently-reading-card">
+          <div class="currently-card-body">
+            <div class="book-cover-3d-wrapper">
+              <div class="book-volume compact" onclick="window.open('${current.goodreadsUrl}', '_blank')" title="افتح ${current.title} على Goodreads">
+                <img src="${coverSrc}" alt="${current.title}" onerror="this.src='${fallbackCover}'">
+              </div>
+            </div>
+            <div class="currently-info compact">
+              <div class="reading-badge compact">
+                <span class="reading-badge-marker"></span>
+                <span>في إيدي دلوقتي</span>
+              </div>
+              <h3 class="currently-title compact font-editorial" dir="auto">${current.title}</h3>
+              <p class="currently-author compact">بقلم: <span dir="auto">${current.author}</span></p>
+              ${current.description ? `<p class="currently-desc compact" dir="auto">${current.description}</p>` : ''}
+              <div class="currently-meta-row compact">
+                ${current.pages ? `<span>${current.pages} صفحة</span>` : ''}
+                ${current.publishedYear ? `<span>سنة النشر: ${current.publishedYear}</span>` : ''}
+                ${current.primaryGenre ? `<span>التصنيف: ${current.primaryGenre}</span>` : ''}
+              </div>
+              <div class="currently-actions">
+                <a href="${current.goodreadsUrl}" target="_blank" rel="noopener noreferrer" class="btn-primary btn-sm">
+                  <span>شوف على Goodreads</span>
+                  <svg style="width: 12px; height: 12px; fill: currentColor; transform: scaleX(-1);" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="currently-info">
-          <div class="reading-badge">
-            <span class="reading-badge-marker"></span>
-            <span>في إيدي دلوقتي</span>
-          </div>
-          <h3 class="currently-title font-editorial" dir="auto">${current.title}</h3>
-          <p class="currently-author">بقلم: ${current.author}</p>
-          ${current.description ? `<p class="currently-desc">${current.description}</p>` : ''}
-          <div class="currently-meta-row">
-            ${current.pages ? `<span>${current.pages} صفحة</span>` : ''}
-            ${current.publishedYear ? `<span>سنة النشر: ${current.publishedYear}</span>` : ''}
-          </div>
-          <div style="margin-top: var(--space-4);">
-            <a href="${current.goodreadsUrl}" target="_blank" rel="noopener noreferrer" class="btn-primary">
-              <span>شوف الكتاب على Goodreads</span>
-              <svg style="width: 14px; height: 14px; fill: currentColor; transform: scaleX(-1);" viewBox="0 0 24 24">
-                <path d="M5 12h14M12 5l7 7-7 7"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    `;
+        </article>
+      `;
+    }).join('');
+
+    setupCurrentlyNav(container);
   } catch (err) {
     console.error('Failed to load currently reading:', err);
+  }
+}
+
+/**
+ * Setup navigation arrows for currently reading track
+ */
+function setupCurrentlyNav(container) {
+  const nav = document.querySelector('#currently-nav');
+  const prevBtn = document.querySelector('#currently-prev');
+  const nextBtn = document.querySelector('#currently-next');
+
+  function checkOverflow() {
+    if (!nav) return;
+    const isOverflowing = container.scrollWidth > container.clientWidth + 12;
+    nav.style.display = isOverflowing ? 'inline-flex' : 'none';
+  }
+
+  // Check overflow after rendering
+  setTimeout(checkOverflow, 120);
+  window.addEventListener('resize', checkOverflow);
+
+  if (prevBtn && nextBtn) {
+    prevBtn.addEventListener('click', () => {
+      container.scrollBy({ left: 380, behavior: 'smooth' });
+    });
+    nextBtn.addEventListener('click', () => {
+      container.scrollBy({ left: -380, behavior: 'smooth' });
+    });
   }
 }
 

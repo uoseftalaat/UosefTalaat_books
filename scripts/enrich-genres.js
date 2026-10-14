@@ -543,7 +543,12 @@ export async function enrichAllBooks({ fetchOnline = true, limit = Infinity } = 
     const currently = JSON.parse(await fs.readFile(currentlyPath, 'utf-8'));
     const enrichedCurrently = currently.map(cb => {
       const match = enrichedBooks.find(b => b.id === cb.id);
-      return match ? { ...cb, genres: match.genres, primaryGenre: match.primaryGenre } : cb;
+      if (match) {
+        return { ...cb, genres: match.genres, primaryGenre: match.primaryGenre };
+      }
+      const goodreadsGenres = cache[cb.id] || [];
+      const { genres, primaryGenre } = classifyBook(cb, goodreadsGenres);
+      return { ...cb, genres, primaryGenre };
     });
     await fs.writeFile(currentlyPath, JSON.stringify(enrichedCurrently, null, 2), 'utf-8');
     console.log(`Updated currently-reading.json`);
