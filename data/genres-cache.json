@@ -156,6 +156,14 @@
   "7651652": [],
   "7654939": [],
   "7704143": [],
+  "7937226": [
+    "Short Stories",
+    "Fiction",
+    "Literature",
+    "Classics",
+    "Novels",
+    "Ebooks"
+  ],
   "8070229": [
     "Short Stories",
     "Fiction"
@@ -192,6 +200,18 @@
   "10713286": [],
   "11205767": [],
   "11759492": [],
+  "11846755": [
+    "Mystery",
+    "Fiction",
+    "Historical Fiction",
+    "Crime",
+    "Detective",
+    "Mystery Thriller",
+    "Classics",
+    "Historical",
+    "Historical Mystery",
+    "Thriller"
+  ],
   "12091888": [
     "Psychology",
     "Nonfiction",
@@ -209,6 +229,17 @@
     "Novels"
   ],
   "12859425": [],
+  "13329487": [
+    "Finance",
+    "Business",
+    "Nonfiction",
+    "Self Help",
+    "Money",
+    "Personal Finance",
+    "Personal Development",
+    "Economics",
+    "Classics"
+  ],
   "13412477": [],
   "13454006": [],
   "15766171": [
@@ -312,6 +343,17 @@
   ],
   "23228981": [],
   "23516287": [],
+  "23692271": [
+    "Nonfiction",
+    "History",
+    "Science",
+    "Philosophy",
+    "Anthropology",
+    "Psychology",
+    "Sociology",
+    "Historical",
+    "Evolution"
+  ],
   "23915038": [],
   "24298669": [],
   "24324198": [],
@@ -361,6 +403,16 @@
   "30612235": [],
   "33141897": [],
   "33141909": [],
+  "33412025": [
+    "Novels",
+    "Fiction",
+    "Religion",
+    "Islam",
+    "Historical Fiction",
+    "Literature",
+    "Fantasy",
+    "Drama"
+  ],
   "34068331": [],
   "34088743": [],
   "34584485": [],
@@ -386,6 +438,18 @@
     "Humor",
     "France",
     "Asia"
+  ],
+  "35393382": [
+    "Fiction",
+    "Historical Fiction",
+    "Mystery",
+    "Fantasy",
+    "Magical Realism",
+    "Spain",
+    "Books About Books",
+    "Gothic",
+    "Spanish Literature",
+    "Thriller"
   ],
   "36527618": [],
   "37555872": [],
@@ -610,6 +674,17 @@
     "Politics",
     "Sociology"
   ],
+  "58497249": [
+    "Nonfiction",
+    "Politics",
+    "Memoir",
+    "Biography",
+    "Autobiography",
+    "Biography Memoir",
+    "History",
+    "Feminism",
+    "Womens"
+  ],
   "58523218": [],
   "58545050": [
     "Novels",
@@ -632,7 +707,22 @@
     "Young Adult",
     "Fantasy"
   ],
+  "59362876": [
+    "History",
+    "Literature"
+  ],
   "59493518": [],
+  "60121932": [
+    "Crime",
+    "Fiction",
+    "Mystery",
+    "Novels",
+    "Thriller",
+    "Paranormal",
+    "Romance",
+    "Mystery Thriller",
+    "Egypt"
+  ],
   "60122526": [
     "Crime",
     "Fiction",
@@ -645,10 +735,15 @@
     "Romance"
   ],
   "60173957": [],
+  "60220999": [
+    "Psychology",
+    "Self Help"
+  ],
   "60225461": [
     "Fiction",
     "Short Stories"
   ],
+  "60245622": [],
   "60332307": [
     "Fantasy",
     "Young Adult",
@@ -694,6 +789,17 @@
     "Novels",
     "Short Stories"
   ],
+  "61382128": [
+    "Novels",
+    "Fiction",
+    "Crime",
+    "Mystery",
+    "Literature",
+    "Thriller",
+    "Egypt",
+    "Suspense",
+    "Mystery Thriller"
+  ],
   "77263752": [],
   "83815000": [
     "Thriller",
@@ -737,6 +843,16 @@
     "British Literature",
     "Philosophy"
   ],
+  "122782731": [
+    "Psychology",
+    "Nonfiction",
+    "Self Help",
+    "Mental Health",
+    "Relationships",
+    "Communication",
+    "Medical",
+    "Reference"
+  ],
   "123014604": [
     "Philosophy"
   ],
@@ -776,6 +892,7 @@
     "Thriller",
     "Mystery Thriller"
   ],
+  "205791637": [],
   "205883430": [
     "Novels"
   ],
@@ -825,6 +942,12 @@
     "Roman",
     "Literature"
   ],
+  "223636027": [
+    "Crime",
+    "Fiction",
+    "Novels",
+    "Thriller"
+  ],
   "223636139": [
     "Crime",
     "Thriller",
@@ -871,5 +994,8 @@
     "Thriller",
     "Novels"
   ],
-  "248179898": []
+  "248179898": [],
+  "259722759": [
+    "Crime"
+  ]
 }

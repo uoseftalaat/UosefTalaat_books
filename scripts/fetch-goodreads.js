@@ -156,10 +156,9 @@ async function main() {
     );
     console.log(`Saved books.json (${allBooks.length} books)`);
 
-    // 3. Extract 5-star books (last 5)
+    // 3. Extract all 5-star books
     const fiveStars = allBooks
-      .filter(b => b.rating === 5 && b.coverUrl)
-      .slice(0, 5);
+      .filter(b => b.rating === 5 && b.coverUrl);
 
     await fs.writeFile(
       path.join(DATA_DIR, 'five-stars.json'),

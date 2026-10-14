@@ -63,26 +63,6 @@
     "primaryGenre": "علم نفس وتطوير ذات"
   },
   {
-    "id": "58658049",
-    "title": "علي أعتاب غرناطه",
-    "author": "أحمد  أمين",
-    "rating": 5,
-    "averageRating": 3.68,
-    "coverUrl": "",
-    "dateAdded": "Wed, 19 Nov 2025 09:47:00 -0800",
-    "dateRead": "Tue, 21 Mar 2023 00:00:00 +0000",
-    "shelves": [],
-    "description": "رواية بقلم أحمد أمين سترى الخائن يعيش ليجنى ثمار تضحيات البطل .. سترى من باع وطنه عاش سالما .. ومن أبى .. قضى نحبه بضربة رمح أو بطعنة سيف أو برصاصة غادرة .. لكنك حتما ستلعن الاول وستمجد الثانى .. ربما يلهب حماسك التاريخ حتى تكاد تعتقد أن أحداثه تتكرر بحذافيرها .. وتتكرر الشخصيات مع اختلاف المكان والزمان فقط ... ذلك ليس صحيحا بالمرة .. التاريخ لا يتغير أحداث الأمس نعيشها اليوم وسنعيشها فى الغد فويل لمن لايتعلم منه ويل له ... غلاف 263 صفحة",
-    "pages": 261,
-    "publishedYear": "2016",
-    "goodreadsUrl": "https://www.goodreads.com/review/show/5423669545?utm_medium=api&utm_source=rss",
-    "isArabic": true,
-    "genres": [
-      "تاريخ وسير"
-    ],
-    "primaryGenre": "تاريخ وسير"
-  },
-  {
     "id": "43306206",
     "title": "The Courage to Be Disliked: How to Free Yourself, Change Your Life and Achieve Real Happiness",
     "author": "Ichiro Kishimi",
@@ -142,7 +122,9 @@
     "isArabic": true,
     "genres": [
       "روايات وأدب",
-      "رعب وإثارة"
+      "رعب وإثارة",
+      "جريمة وغموض",
+      "خيال علمي وفانتازيا"
     ],
     "primaryGenre": "رعب وإثارة"
   },
