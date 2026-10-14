@@ -829,6 +829,9 @@ button {
   transition: all var(--transition-base);
   position: relative;
   overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
 }
 
 .social-card::before {
@@ -846,9 +849,14 @@ button {
 .social-card.gr::before { background: #553B08; }
 .social-card.ig::before { background: #E1306C; }
 
-.social-card:hover {
+.social-card:hover,
+.social-card:focus-visible {
   transform: translateY(-4px);
   box-shadow: var(--shadow-lift);
+}
+
+.social-card:active {
+  transform: translateY(-1px);
 }
 
 .social-card-top {
@@ -915,11 +923,13 @@ button {
   transition: transform var(--transition-fast);
 }
 
-.social-card:hover .social-cta {
+.social-card:hover .social-cta,
+.social-card:focus-visible .social-cta {
   color: var(--color-accent);
 }
 
-.social-card:hover .social-cta svg {
+.social-card:hover .social-cta svg,
+.social-card:focus-visible .social-cta svg {
   transform: translateX(-4px);
 }
 
