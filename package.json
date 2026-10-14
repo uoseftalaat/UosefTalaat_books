@@ -1,0 +1,17 @@
+{
+  "name": "uosef-talaat-books",
+  "version": "1.0.0",
+  "description": "Personal reading website for Uosef Talaat with Goodreads RSS sync",
+  "main": "scripts/fetch-goodreads.js",
+  "scripts": {
+    "fetch-books": "node scripts/fetch-goodreads.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "xml2js": "^0.6.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "puppeteer-core": "^25.13.0"
+  }
+}
